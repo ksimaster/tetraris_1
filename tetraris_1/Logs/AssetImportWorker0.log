@@ -1,125 +1,125 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 12232 MB
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 8075 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\Program Files\unityeditor\2020.3.16f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Users/Adun/Documents/GitHub/tetraris_1/tetraris_1
+C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55930
-Successfully changed project path to: E:/Users/Adun/Documents/GitHub/tetraris_1/tetraris_1
-E:/Users/Adun/Documents/GitHub/tetraris_1/tetraris_1
+59635
+Successfully changed project path to: C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
+C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
-[Subsystems] Discovering subsystems at path E:/Program Files/unityeditor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Users/Adun/Documents/GitHub/tetraris_1/tetraris_1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1/Assets
 GfxDevice: creating device client; threaded=0
 d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
 d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     1970 MB
-    Driver:   27.21.14.6089
+    VRAM:     2977 MB
+    Driver:   27.21.14.6140
 Initialize mono
-Mono path[0] = 'E:/Program Files/unityeditor/2020.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Program Files/unityeditor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/Program Files/unityeditor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Program Files/unityeditor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004184 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001093 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.463 seconds
+- Completed reload, in  1.004 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1464ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (1004ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (566ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (465ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (192ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.132068 seconds.
+Registered in 0.003370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.545 seconds
+- Completed reload, in  1.243 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1546ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1243ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1319ms)
-			LoadAssemblies (162ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (592ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (442ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (68ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (327ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.2 MB.
 System memory in use after: 93.3 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2527.
-Total: 4.392341 ms (FindLiveObjects: 0.234242 ms CreateObjectMapping: 0.086633 ms MarkObjects: 3.944081 ms  DeleteObjects: 0.124668 ms)
+Total: 3.516211 ms (FindLiveObjects: 0.300827 ms CreateObjectMapping: 0.088972 ms MarkObjects: 3.065517 ms  DeleteObjects: 0.059436 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,224 +133,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2D Free Platformer Char
-  artifactKey: Guid(2c9c2d0fff909cd41936234acee13e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char using Guid(2c9c2d0fff909cd41936234acee13e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bc110ed95fecd64e0a56bd63b50237') in 0.323434 seconds 
-  Import took 0.331434 seconds .
+  path: Assets/pic/бревно.png
+  artifactKey: Guid(93eac9c949263874da7e8d9f4b325fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/бревно.png using Guid(93eac9c949263874da7e8d9f4b325fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d0f60a2933ce55ac9e68b6ec2b2f67') in 0.112359 seconds 
+  Import took 0.115804 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/2D Free Platformer Char/Scenes
-  artifactKey: Guid(4a1c617da1b9f784b9cff0e865ef01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/Scenes using Guid(4a1c617da1b9f784b9cff0e865ef01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e152967a05b25818e8492835f6474bad') in 0.052918 seconds 
-  Import took 0.058805 seconds .
+  Time since last request: 28.581636 seconds.
+  path: Assets/pic/brevno.png
+  artifactKey: Guid(93eac9c949263874da7e8d9f4b325fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/brevno.png using Guid(93eac9c949263874da7e8d9f4b325fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea7eb2731b3b840be9854a1ba81d61e') in 0.014004 seconds 
+  Import took 0.019642 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/2D Free Platformer Char/Background
-  artifactKey: Guid(b7e2c937f5e2fb44a9af888b833c4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/Background using Guid(b7e2c937f5e2fb44a9af888b833c4763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfbf21a8e2935f4c9f61e70be7e93dd') in 0.042714 seconds 
-  Import took 0.046859 seconds .
+  Time since last request: 10.242741 seconds.
+  path: Assets/pic/kamen.png
+  artifactKey: Guid(9b9a560943312914a89b3befee1fc704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/kamen.png using Guid(9b9a560943312914a89b3befee1fc704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0a017818611607a1f496b8644ff9f3') in 0.015715 seconds 
+  Import took 0.020746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/2D Free Platformer Char/Background/Image.png
-  artifactKey: Guid(14b1b29a22e3a9c46b91d84f6844942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/Background/Image.png using Guid(14b1b29a22e3a9c46b91d84f6844942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7bf847f76cbb88169dbb29588ce7d4') in 0.220676 seconds 
-  Import took 0.224752 seconds .
+  Time since last request: 18.824668 seconds.
+  path: Assets/pic/Деревья/elka.png
+  artifactKey: Guid(2dbd03e9c428b5c4eb5b2dbdf4815918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Деревья/elka.png using Guid(2dbd03e9c428b5c4eb5b2dbdf4815918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a9be2f55930cf6008852a5e9c4fc5c') in 0.011490 seconds 
+  Import took 0.015900 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/2D Free Platformer Char/asset
-  artifactKey: Guid(3043ec6b1e09f5d458f5f92f4a70feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset using Guid(3043ec6b1e09f5d458f5f92f4a70feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a0ca341a529e4dff17244d37677df6') in 0.039103 seconds 
-  Import took 0.043523 seconds .
+  Time since last request: 9.327658 seconds.
+  path: Assets/pic/Горы/goty.png
+  artifactKey: Guid(f110f162f92fd3e48a7095715d3fbb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Горы/goty.png using Guid(f110f162f92fd3e48a7095715d3fbb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8db5ab0e6edfe9d3fc4986a6bde5c9') in 0.024351 seconds 
+  Import took 0.029238 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/2D Free Platformer Char/Scripts
-  artifactKey: Guid(effce6c7dbaafe74fb629845356b0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/Scripts using Guid(effce6c7dbaafe74fb629845356b0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b8ef4cb629d17403360d732c375a2') in 0.033209 seconds 
-  Import took 0.037446 seconds .
+  Time since last request: 9.508564 seconds.
+  path: Assets/pic/Горы/gory.png
+  artifactKey: Guid(f110f162f92fd3e48a7095715d3fbb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Горы/gory.png using Guid(f110f162f92fd3e48a7095715d3fbb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd55d857900b55eca2e896068ecd57c') in 0.015572 seconds 
+  Import took 0.021420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004392 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf
-  artifactKey: Guid(801356403f8da3f4ea5dfe9202220865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf using Guid(801356403f8da3f4ea5dfe9202220865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e42c13e2c98a9d49f851876fad6c75') in 0.041488 seconds 
-  Import took 0.048277 seconds .
+  Time since last request: 10.221947 seconds.
+  path: Assets/pic/ozero.png
+  artifactKey: Guid(6a6d590afa16509478611a9725a67d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/ozero.png using Guid(6a6d590afa16509478611a9725a67d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4655033b304c85a77f33f27e5570db') in 0.013920 seconds 
+  Import took 0.018369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/2D Free Platformer Char/Background/Vorlage.png
-  artifactKey: Guid(0efc719f775c15c4dafcde4394d9b23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/Background/Vorlage.png using Guid(0efc719f775c15c4dafcde4394d9b23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd089e39ccb0a0b3024724c02c942e316') in 0.194895 seconds 
-  Import took 0.199510 seconds .
+  Time since last request: 13.314970 seconds.
+  path: Assets/pic/Трава/trava_1.png
+  artifactKey: Guid(318e4be2030546d4b85bfc31001b2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_1.png using Guid(318e4be2030546d4b85bfc31001b2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f2789cc061023d5404984431419f1d') in 0.018811 seconds 
+  Import took 0.023222 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf3.mat
-  artifactKey: Guid(4ab82f9ca4edd4047beac48c2a52efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf3.mat using Guid(4ab82f9ca4edd4047beac48c2a52efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8676f278c68b99f1daf2823238362eb4') in 0.084331 seconds 
-  Import took 0.088882 seconds .
+  Time since last request: 5.621418 seconds.
+  path: Assets/pic/Трава/trava_2.png
+  artifactKey: Guid(428f000be8415fb4e87746ef58cfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_2.png using Guid(428f000be8415fb4e87746ef58cfbf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e4c9b8bba1ec9ca5dd2d1f7e700c46') in 0.022024 seconds 
+  Import took 0.027734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf2.mat
-  artifactKey: Guid(88170199a3bf31046b6a888c08dd2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf2.mat using Guid(88170199a3bf31046b6a888c08dd2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ee7e1bb898f1195ab714520a3da11e') in 0.041692 seconds 
-  Import took 0.045926 seconds .
+  Time since last request: 4.549174 seconds.
+  path: Assets/pic/Трава/trava_3.png
+  artifactKey: Guid(ac01e8f7ef70e6c4aae1841921014440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_3.png using Guid(ac01e8f7ef70e6c4aae1841921014440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5626553a1b51634b6c05c43967ec85') in 0.013524 seconds 
+  Import took 0.018005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf5.mat
-  artifactKey: Guid(cadfabd589e95ba42b59edd6ed613ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf5.mat using Guid(cadfabd589e95ba42b59edd6ed613ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baef139d601a78aeded76c73423ee95') in 0.048525 seconds 
-  Import took 0.052930 seconds .
+  Time since last request: 4.627489 seconds.
+  path: Assets/pic/Трава/trava_4.png
+  artifactKey: Guid(cc03a3ad4f6029a458c76204b0faec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_4.png using Guid(cc03a3ad4f6029a458c76204b0faec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efb3fa08bce542588be3c16d3e3d273') in 0.012032 seconds 
+  Import took 0.016769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf8.png
-  artifactKey: Guid(09de0eae1fca02b48beac056140d5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf8.png using Guid(09de0eae1fca02b48beac056140d5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf7dd77ae694774fb7789a0c120d94a') in 0.057877 seconds 
-  Import took 0.063334 seconds .
+  Time since last request: 4.009103 seconds.
+  path: Assets/pic/Трава/trava_5.png
+  artifactKey: Guid(f8d2d1276d0970d4ead19b7ce992a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_5.png using Guid(f8d2d1276d0970d4ead19b7ce992a59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21bdad7136f9099f65bb4e8cd5731c3') in 0.013307 seconds 
+  Import took 0.017405 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf4.png
-  artifactKey: Guid(ed7403abd48d16b4aa9b55935e944fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf4.png using Guid(ed7403abd48d16b4aa9b55935e944fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620f2ca640f44f9da4ecabbaa5aee45a') in 0.076731 seconds 
-  Import took 0.082009 seconds .
+  Time since last request: 3.887224 seconds.
+  path: Assets/pic/Трава/trava_6.png
+  artifactKey: Guid(13de3da530d3dd442a2aef32639daa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Трава/trava_6.png using Guid(13de3da530d3dd442a2aef32639daa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2905b7b7880c39ca8bd5edeb65721bf4') in 0.011446 seconds 
+  Import took 0.015689 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf9.mat
-  artifactKey: Guid(d65195cad0687e64180ff946c9e6a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf9.mat using Guid(d65195cad0687e64180ff946c9e6a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d9292573e97ef436ce1ab422d75096') in 0.046226 seconds 
-  Import took 0.051429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf.png
-  artifactKey: Guid(5cd80995708881748a4a923a7bdc1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf.png using Guid(5cd80995708881748a4a923a7bdc1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166c478e07af1bdedc9f0368b3de41cd') in 0.078122 seconds 
-  Import took 0.083119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf3.png
-  artifactKey: Guid(17a36de044e11334f812284659cacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf3.png using Guid(17a36de044e11334f812284659cacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f310fbf404b43135858490ca317e3e9') in 0.062026 seconds 
-  Import took 0.066300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Atlas.asset
-  artifactKey: Guid(28046bb4b59f04b43b22ea2d9aa305f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Atlas.asset using Guid(28046bb4b59f04b43b22ea2d9aa305f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc9fd92b6be9c8315557da3e961ee05') in 0.036030 seconds 
-  Import took 0.040366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf2.png
-  artifactKey: Guid(da1b009b08c3c254b92ebc21d7d89b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf2.png using Guid(da1b009b08c3c254b92ebc21d7d89b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8809475b12057d87964dd01a94a8a70a') in 0.069161 seconds 
-  Import took 0.073773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf4.mat
-  artifactKey: Guid(0ae7fe909f75f334699dd262b8edf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf4.mat using Guid(0ae7fe909f75f334699dd262b8edf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b986639e57296313197390169d589f') in 0.039785 seconds 
-  Import took 0.044674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf6.png
-  artifactKey: Guid(1a96eeb62a3be234b9a7499e55b40e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf6.png using Guid(1a96eeb62a3be234b9a7499e55b40e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6639258ec6235bbc708c12c22b92cc2') in 0.064978 seconds 
-  Import took 0.069350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf8.mat
-  artifactKey: Guid(0d784222269d1ff44be6dcb31e62671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf8.mat using Guid(0d784222269d1ff44be6dcb31e62671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4760498728d7d3a6364ec799fb4eeca5') in 0.037434 seconds 
-  Import took 0.041350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf7.mat
-  artifactKey: Guid(01b5533a662947044ba60f7581fe41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf7.mat using Guid(01b5533a662947044ba60f7581fe41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c340e22fd75fde6f6929959b4ee4adb') in 0.037325 seconds 
-  Import took 0.043542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf5.png
-  artifactKey: Guid(6521bf1e5fe8ca04fa6940c24b72b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf5.png using Guid(6521bf1e5fe8ca04fa6940c24b72b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be99796dc9653149e025e9a54c6a8e1d') in 0.068515 seconds 
-  Import took 0.072229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf7.png
-  artifactKey: Guid(9a3d4a1773b20ae4b970691abae5cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf7.png using Guid(9a3d4a1773b20ae4b970691abae5cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eca0af904f4fef90f7d5a0c9d06ba8') in 0.059140 seconds 
-  Import took 0.063499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf9.png
-  artifactKey: Guid(098adf2534ae9ad4890e7ecf4fb4eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf9.png using Guid(098adf2534ae9ad4890e7ecf4fb4eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a9df419680b3a00c07f87023724cda') in 0.060036 seconds 
-  Import took 0.063940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas
-  artifactKey: Guid(5f246197c0d06ff4398c4ff9b52e6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas using Guid(5f246197c0d06ff4398c4ff9b52e6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0216252fda1c95f7b44264d712bb0b5b') in 0.033803 seconds 
-  Import took 0.037868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf6.mat
-  artifactKey: Guid(9bfb33e937bdedd44868122a094f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf6.mat using Guid(9bfb33e937bdedd44868122a094f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6427c09f374265462c338defb4686535') in 0.038935 seconds 
-  Import took 0.044257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf.mat
-  artifactKey: Guid(25da7f7b34a917b49a550ca787e00b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf.mat using Guid(25da7f7b34a917b49a550ca787e00b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ec24bdda4b5ca85a093d0d2ee5ab98') in 0.035766 seconds 
-  Import took 0.040094 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
