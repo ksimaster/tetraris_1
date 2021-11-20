@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 1991867599321214}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 54755effa97de6b409475be2913c47fa, type: 2}
+  m_Controller: {fileID: 9100000, guid: f62890e45037a784fb40fa10478ec9bc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  wolfAnimator: {fileID: 95427405674940160}
 --- !u!114 &982249424
 MonoBehaviour:
   m_ObjectHideFlags: 0
