@@ -9,6 +9,7 @@ public class WolfScript : MonoBehaviour
     float speed = 2.5f;
    // bool toWalk = false;
     public Animator wolfAnimator;
+    public GameObject soundSteps;
 
     private void FixedUpdate()
     {
@@ -19,6 +20,7 @@ public class WolfScript : MonoBehaviour
             direction = Vector2.left; // (-1, 0)
             wolfAnimator.SetBool("toWalk", true);
             Flip();
+            soundSteps.GetComponent<AudioSource>().mute = false; // Нет проверки на общее отключение звука
         }
 
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
@@ -26,6 +28,7 @@ public class WolfScript : MonoBehaviour
             direction = Vector2.right;// (1, 0)
             wolfAnimator.SetBool("toWalk", true);
             Flip();
+            soundSteps.GetComponent<AudioSource>().mute = false; // Нет проверки на общее отключение звука
         }
             
 
@@ -35,6 +38,7 @@ public class WolfScript : MonoBehaviour
         if (direction == Vector2.zero)
         {
             wolfAnimator.SetBool("toWalk", false);
+            soundSteps.GetComponent<AudioSource>().mute = true; // Нет проверки на общее отключение звука
         }
     }
 
