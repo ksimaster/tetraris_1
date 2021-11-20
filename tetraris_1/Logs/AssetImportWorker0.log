@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 16322 MB
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 8075 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,128 +11,115 @@ C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/GitHub/tetraris_1/tetraris_1
+C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51858
-Successfully changed project path to: C:/GitHub/tetraris_1/tetraris_1
-C:/GitHub/tetraris_1/tetraris_1
+59776
+Successfully changed project path to: C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
+C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GitHub/tetraris_1/tetraris_1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kycaka/Documents/GitHub/tetraris_1/tetraris_1/Assets
 GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.5671
+    VRAM:     2977 MB
+    Driver:   27.21.14.6140
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002386 seconds.
+Registered in 0.003266 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.169 seconds
+- Completed reload, in  1.405 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1169ms)
+	ReloadAssembly (1405ms)
 		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (385ms)
+		EndReloadAssembly (564ms)
 			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (156ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (69ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004350 seconds.
+Registered in 0.009532 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000239E2F5E020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7DCEC6B0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2F8E460 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7E6753F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E241B620 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E26FC240 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.297 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (313ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (387ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2095 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.3 MB.
 System memory in use after: 93.4 MB.
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 2.904200 ms (FindLiveObjects: 0.164000 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.612300 ms  DeleteObjects: 0.060700 ms)
+Total: 4.327167 ms (FindLiveObjects: 0.372661 ms CreateObjectMapping: 0.143668 ms MarkObjects: 3.710198 ms  DeleteObjects: 0.098817 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -146,1903 +133,193 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/animation/elka.anim
-  artifactKey: Guid(8f9bfded29b7a714185f934cb07d0d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/elka.anim using Guid(8f9bfded29b7a714185f934cb07d0d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa75c8b079df6e3ca9bbd1de7d024615') in 0.042373 seconds 
-  Import took 0.045238 seconds .
+  path: Assets/music
+  artifactKey: Guid(09ccc62b255f4b845b7f8b8419a6aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music using Guid(09ccc62b255f4b845b7f8b8419a6aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa9984eff283fa0d31b819fdac53be5') in 0.005648 seconds 
+  Import took 0.009388 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/animation/fir.controller
-  artifactKey: Guid(b3c99223ef948b64a9d0c40975bc5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/fir.controller using Guid(b3c99223ef948b64a9d0c40975bc5127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233e7085ddfc25ec99a3c76ef97189b2') in 0.009738 seconds 
-  Import took 0.012827 seconds .
+  Time since last request: 40.965844 seconds.
+  path: Assets/music/fon.mp3
+  artifactKey: Guid(255476a34a47d894a863fce695ffc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/fon.mp3 using Guid(255476a34a47d894a863fce695ffc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8debc01e2287619eacf24c27e465e6d7') in 0.122549 seconds 
+  Import took 0.126771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.947337 seconds.
-  path: Assets/animation/fir_1.controller
-  artifactKey: Guid(a4c3136053e2eaa4eb4a7af1621c410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/fir_1.controller using Guid(a4c3136053e2eaa4eb4a7af1621c410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba759ceeb511ff5136ee60458e34b6') in 0.009090 seconds 
-  Import took 0.012450 seconds .
+  Time since last request: 0.006843 seconds.
+  path: Assets/music/fon.mp3
+  artifactKey: Guid(255476a34a47d894a863fce695ffc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/fon.mp3 using Guid(255476a34a47d894a863fce695ffc3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8debc01e2287619eacf24c27e465e6d7') in 0.010699 seconds 
+  Import took 0.015408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1264ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 3.259140 ms (FindLiveObjects: 0.243214 ms CreateObjectMapping: 0.096265 ms MarkObjects: 2.896689 ms  DeleteObjects: 0.021878 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 393.240410 seconds.
+  path: Assets/pic/etch.png
+  artifactKey: Guid(b90a62e3cf3b5a941b2289fbb9f68747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/etch.png using Guid(b90a62e3cf3b5a941b2289fbb9f68747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604e3bd66b1cea7b399b5fc776ecbf60') in 0.075051 seconds 
+  Import took 0.079550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000655 seconds.
-  path: Assets/animation/fir_1.controller
-  artifactKey: Guid(a4c3136053e2eaa4eb4a7af1621c410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/fir_1.controller using Guid(a4c3136053e2eaa4eb4a7af1621c410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eba759ceeb511ff5136ee60458e34b6') in 0.004214 seconds 
-  Import took 0.007322 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Assets/pic/Без имени-3.png
+  artifactKey: Guid(375cab39674753d44b8187f0fff06e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/Без имени-3.png using Guid(375cab39674753d44b8187f0fff06e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498e99f69ff7ad1d5546e31e2dfa68f9') in 0.015676 seconds 
+  Import took 0.020297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.378110 seconds.
-  path: Assets/animation/WolfMyAnimator.controller
-  artifactKey: Guid(f62890e45037a784fb40fa10478ec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/animation/WolfMyAnimator.controller using Guid(f62890e45037a784fb40fa10478ec9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56491674b69f74fa9849df8e94ae3633') in 0.006426 seconds 
-  Import took 0.009451 seconds .
+  Time since last request: 0.000289 seconds.
+  path: Assets/pic/etch2.png
+  artifactKey: Guid(66f31e48fa3dc034b9c86913ae0cfa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/etch2.png using Guid(66f31e48fa3dc034b9c86913ae0cfa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1734b46f2ee5f9f455053fa3a87d54c') in 0.016918 seconds 
+  Import took 0.021442 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.380264 seconds.
-  path: Assets/2D Free Platformer Char/asset
-  artifactKey: Guid(3043ec6b1e09f5d458f5f92f4a70feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset using Guid(3043ec6b1e09f5d458f5f92f4a70feba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2946e2fcd5460a72cce53aa54c80d49f') in 0.005978 seconds 
-  Import took 0.009254 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/pic/water1.png
+  artifactKey: Guid(572e458d8cbf8a246b0b75fa42cc41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/water1.png using Guid(572e458d8cbf8a246b0b75fa42cc41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfef87cb4642323b04b44a609ed1aea') in 0.018207 seconds 
+  Import took 0.023305 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.686676 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf
-  artifactKey: Guid(801356403f8da3f4ea5dfe9202220865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf using Guid(801356403f8da3f4ea5dfe9202220865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb48ffbbb2b6dac3c5a7222db0b9546b') in 0.006527 seconds 
-  Import took 0.009782 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/pic/water.png
+  artifactKey: Guid(9b08bf96f6311594fb0b12064f045390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/water.png using Guid(9b08bf96f6311594fb0b12064f045390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187503ead8aa9044e738baff727e1017') in 0.015206 seconds 
+  Import took 0.019380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.596101 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller
-  artifactKey: Guid(05f9dfb09cfbfce4cbe874f659e729b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller using Guid(05f9dfb09cfbfce4cbe874f659e729b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1689e8ee4df8c8ad5b7cec3422dab0') in 0.006471 seconds 
-  Import took 0.009743 seconds .
+  Time since last request: 0.000269 seconds.
+  path: Assets/pic/etch_2.png
+  artifactKey: Guid(ab2c70d2a233ab440948ce80c8fbb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/etch_2.png using Guid(ab2c70d2a233ab440948ce80c8fbb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf687123c7dad56139cffae436cc945') in 0.018025 seconds 
+  Import took 0.022476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.952335 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/2To4.anim
-  artifactKey: Guid(40c25518cc195bc4fbf4aed27a6d3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/2To4.anim using Guid(40c25518cc195bc4fbf4aed27a6d3d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3a7f6af8e152f2fd7155a77f4d827f') in 0.007649 seconds 
-  Import took 0.011203 seconds .
+  Time since last request: 0.000273 seconds.
+  path: Assets/pic/etch_1.png
+  artifactKey: Guid(028183a344272864cbb1cea8ab895604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/etch_1.png using Guid(028183a344272864cbb1cea8ab895604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de413271ff7306e5492b49d89a1a131c') in 0.015120 seconds 
+  Import took 0.020166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.110410 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Attack.anim
-  artifactKey: Guid(007d6cf9b0128b34887d2478382f620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Attack.anim using Guid(007d6cf9b0128b34887d2478382f620f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffbcf26ba67c7df00f5c4749b4e4e0f') in 0.006546 seconds 
-  Import took 0.009860 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.624481 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Die.anim
-  artifactKey: Guid(120a749db6c0db440a1dac3de58ba7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Die.anim using Guid(120a749db6c0db440a1dac3de58ba7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f0d3dca4748a6cf4be2e25e59362b2') in 0.006992 seconds 
-  Import took 0.010393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.777352 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4FlyBack.anim
-  artifactKey: Guid(ddeb1eb1f97efd445b2efbb9df1a1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4FlyBack.anim using Guid(ddeb1eb1f97efd445b2efbb9df1a1047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce10da8fa790e882cd05a7f6815c0b5') in 0.010934 seconds 
-  Import took 0.014257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.181515 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4FlyFront.anim
-  artifactKey: Guid(07f0c2c625c95a641b9abd2aff9b76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4FlyFront.anim using Guid(07f0c2c625c95a641b9abd2aff9b76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ac29fdb95c47c558e65fbc48085d4c') in 0.006855 seconds 
-  Import took 0.010361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733802 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4HitBack.anim
-  artifactKey: Guid(078e719a4bf8c0e4488744cabcbd203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4HitBack.anim using Guid(078e719a4bf8c0e4488744cabcbd203d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e01f5511d983356840fd99680bb207b') in 0.006414 seconds 
-  Import took 0.009750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.811222 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4HitFront.anim
-  artifactKey: Guid(a8bc80b32f7735c4c813ff61d4e283b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4HitFront.anim using Guid(a8bc80b32f7735c4c813ff61d4e283b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87460bfec89400d6e2e258b39b9cf528') in 0.006152 seconds 
-  Import took 0.009270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.699935 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Idle.anim
-  artifactKey: Guid(0ce212b9752a0d140b13c8724b521a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Idle.anim using Guid(0ce212b9752a0d140b13c8724b521a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eb4408026434dba953af7010d82255') in 0.006817 seconds 
-  Import took 0.009888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.631864 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Jump.anim
-  artifactKey: Guid(2edfb1d1177c5394d8e1139c0596ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Jump.anim using Guid(2edfb1d1177c5394d8e1139c0596ad48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4969c62664129433e6ee024f6af02a8') in 0.006823 seconds 
-  Import took 0.010348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.103684 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/DieBack.anim
-  artifactKey: Guid(9e4e78db810e16445a1706a17bc07868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/DieBack.anim using Guid(9e4e78db810e16445a1706a17bc07868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd717de230a84cb38e2c052ffc1fc9d') in 0.007430 seconds 
-  Import took 0.010829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.866255 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Walk.anim
-  artifactKey: Guid(c706e009176f4ed429c022f070b09dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Walk.anim using Guid(c706e009176f4ed429c022f070b09dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394036f4c46cbdf7ed96c3f99c46a078') in 0.008123 seconds 
-  Import took 0.011453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.731359 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1
-  artifactKey: Guid(0081497c0c352ad4b92acc8ffdc22252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1 using Guid(0081497c0c352ad4b92acc8ffdc22252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3628aef6d47691f2ff808dbc026e14') in 0.005496 seconds 
-  Import took 0.008584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055838 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_01.png
-  artifactKey: Guid(82f5600467dff9f4b8370a24b3a300c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_01.png using Guid(82f5600467dff9f4b8370a24b3a300c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b74e036395cd44b70ab77da6a6cbc8') in 0.090605 seconds 
-  Import took 0.093977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_14.png
-  artifactKey: Guid(930570dcff835194eaedce20b523bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_14.png using Guid(930570dcff835194eaedce20b523bfcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76fd5f9dc7987c83c60d8daaa21e458') in 0.013074 seconds 
-  Import took 0.016358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_20.png
-  artifactKey: Guid(9aba020db89766f42b05e638a0599a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_20.png using Guid(9aba020db89766f42b05e638a0599a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095e06fcdd1538f07dcef612958ded9') in 0.017735 seconds 
-  Import took 0.020626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06.png
-  artifactKey: Guid(7f63b77dd23bacb4a8828b911672a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_06.png using Guid(7f63b77dd23bacb4a8828b911672a896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4246b832d8b94bd5c54916ca0fa01c9') in 0.018833 seconds 
-  Import took 0.021767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_15.png
-  artifactKey: Guid(6279eeceffc974a4b8043ca25f39dab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_15.png using Guid(6279eeceffc974a4b8043ca25f39dab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0923379bfc135731eb5622abd54337e') in 0.013701 seconds 
-  Import took 0.016715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_07.png
-  artifactKey: Guid(75f4fdc2504dfdc4394d36998ae2481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_07.png using Guid(75f4fdc2504dfdc4394d36998ae2481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d77b83df535f76ed167b56ad361dc62') in 0.013717 seconds 
-  Import took 0.016727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_10.png
-  artifactKey: Guid(cc140c6c055924942b3d92ddc7d6748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_10.png using Guid(cc140c6c055924942b3d92ddc7d6748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56c6d21e4f66c25e75e8eee59c17cdc') in 0.014109 seconds 
-  Import took 0.017157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_23.png
-  artifactKey: Guid(b05e612ab0e9b8f4f9b318ea0a6e084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_23.png using Guid(b05e612ab0e9b8f4f9b318ea0a6e084e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0008204ad59a2cb9a81ddd0f686717') in 0.013947 seconds 
-  Import took 0.016925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_24.png
-  artifactKey: Guid(403ce1a847f746f4b930dcee7871ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_24.png using Guid(403ce1a847f746f4b930dcee7871ee8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33822d0186dab80eaab80a46009144b') in 0.014602 seconds 
-  Import took 0.017652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_22.png
-  artifactKey: Guid(2d7d0d29341e3dc4780fbdacaec4f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_22.png using Guid(2d7d0d29341e3dc4780fbdacaec4f9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ec1f97c3cc5e73e8a8b23957337e8c') in 0.014036 seconds 
-  Import took 0.017132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_33.png
-  artifactKey: Guid(9a835cb331a527145874b5d067429a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_33.png using Guid(9a835cb331a527145874b5d067429a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9176a6fd4492268e5158955a38082929') in 0.017538 seconds 
-  Import took 0.020619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08.png
-  artifactKey: Guid(7f735003821309b4f9224c3f65def0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_08.png using Guid(7f735003821309b4f9224c3f65def0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d0a9a957b0116197714274602ee154') in 0.018286 seconds 
-  Import took 0.021240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_27.png
-  artifactKey: Guid(f2b56903f6303a34fbdf848877baccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_27.png using Guid(f2b56903f6303a34fbdf848877baccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b110998d56edcfa950ef9b1668533364') in 0.014191 seconds 
-  Import took 0.017296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_12.png
-  artifactKey: Guid(ce4f0b7ead580f1439cb23f7d727c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_12.png using Guid(ce4f0b7ead580f1439cb23f7d727c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb20b41f1905352fbd5adca1c0930bbe') in 0.013523 seconds 
-  Import took 0.016698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_17.png
-  artifactKey: Guid(1eb3a7f873310f94f8623a0daba4a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_17.png using Guid(1eb3a7f873310f94f8623a0daba4a96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c9dd46efdfa8577fc6d9e16c3b4772') in 0.013789 seconds 
-  Import took 0.016920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_03.png
-  artifactKey: Guid(f83a009e599fed64fafde38df0e805db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_03.png using Guid(f83a009e599fed64fafde38df0e805db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacffed52964eb4111e729c38780eb3e') in 0.014337 seconds 
-  Import took 0.017257 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_04.png
-  artifactKey: Guid(a55a9ca40879f9e47a1b9589f3b4d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_04.png using Guid(a55a9ca40879f9e47a1b9589f3b4d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb28a9e55b9009f2368445839277e9') in 0.014123 seconds 
-  Import took 0.017092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09.png
-  artifactKey: Guid(48495a99ffde65c409dbd525bcb1f8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_09.png using Guid(48495a99ffde65c409dbd525bcb1f8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c1b639650cd3de1b316dbe045e3b1') in 0.014301 seconds 
-  Import took 0.017188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_26.png
-  artifactKey: Guid(a1f3766ea8208a84ebdffa502ba5d717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_26.png using Guid(a1f3766ea8208a84ebdffa502ba5d717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeb0c88c9af490f6f3e6a7e265a0a9e') in 0.013908 seconds 
-  Import took 0.016973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_31.png
-  artifactKey: Guid(8d12b88ed5a318a4b9b9c2c12e8d5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_31.png using Guid(8d12b88ed5a318a4b9b9c2c12e8d5777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c8afd5e17aa6061c589c24e39c0b75') in 0.015104 seconds 
-  Import took 0.018122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_02.png
-  artifactKey: Guid(fbbd0b86118cc8144a8430bc3dcc6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_02.png using Guid(fbbd0b86118cc8144a8430bc3dcc6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9c28d157447d54e6723ae5c2d30b47') in 0.014675 seconds 
-  Import took 0.017833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_05.png
-  artifactKey: Guid(4686c5afaadce55428c399fd47550eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_05.png using Guid(4686c5afaadce55428c399fd47550eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cd7057f3679ff9ecac2cc496f09465') in 0.016267 seconds 
-  Import took 0.019386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16.png
-  artifactKey: Guid(b420920e67e8dda49bdbddcdbcee6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_16.png using Guid(b420920e67e8dda49bdbddcdbcee6443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c9d95dc5a196db24873391be9afa6') in 0.017562 seconds 
-  Import took 0.020477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_29.png
-  artifactKey: Guid(ffd0c9cffc8479d4a924ba18ba34a640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_29.png using Guid(ffd0c9cffc8479d4a924ba18ba34a640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f8dd0fa5f9c2f322740419475d3943') in 0.014919 seconds 
-  Import took 0.017639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_30.png
-  artifactKey: Guid(6c8f66cc0d377f745b9cf0a17aa10da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_30.png using Guid(6c8f66cc0d377f745b9cf0a17aa10da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47844f6525623a8d1e36b2f48a8a6b9b') in 0.014401 seconds 
-  Import took 0.017796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11.png
-  artifactKey: Guid(0ef7d64955f6fa244b2c200c1b98fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_11.png using Guid(0ef7d64955f6fa244b2c200c1b98fa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1f5bc414fb3fbe227917ea68492088') in 0.014701 seconds 
-  Import took 0.017985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_19.png
-  artifactKey: Guid(bc659a10fe4e86e4b822c165be0a45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_19.png using Guid(bc659a10fe4e86e4b822c165be0a45fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d3327beb9d3848ee5315e9d8eb9f98') in 0.014097 seconds 
-  Import took 0.017137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_21.png
-  artifactKey: Guid(c7d9f040bbb1d8f4f834897cedca7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_21.png using Guid(c7d9f040bbb1d8f4f834897cedca7283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba6548d79f15e5b979a3e8e948d6db0') in 0.014637 seconds 
-  Import took 0.017552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_32.png
-  artifactKey: Guid(9dbfe96460238ec4a9dee3362638d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_32.png using Guid(9dbfe96460238ec4a9dee3362638d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0340ecba543126d6d5966af3a0a00e') in 0.014025 seconds 
-  Import took 0.017128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_28.png
-  artifactKey: Guid(6cb4e460d39fd864b8655a49f0ddb0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_28.png using Guid(6cb4e460d39fd864b8655a49f0ddb0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea12d6fa027987c943ec2491c3c67138') in 0.013806 seconds 
-  Import took 0.016943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_18.png
-  artifactKey: Guid(3136213349406264a9ec7302a8bd5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_18.png using Guid(3136213349406264a9ec7302a8bd5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73567ee24d43ebf86cd4df9654d9db77') in 0.014115 seconds 
-  Import took 0.017139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_25.png
-  artifactKey: Guid(9200d996ba69f7242b17bbc63d94613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_25.png using Guid(9200d996ba69f7242b17bbc63d94613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2978e66e3f5594fd6409bf9cd55c43c5') in 0.013404 seconds 
-  Import took 0.016550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_13.png
-  artifactKey: Guid(c80a201c3a3f604419907184b5025226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Sprites/Idle1/Wolf-Idle1_13.png using Guid(c80a201c3a3f604419907184b5025226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448aad75fe94e939ec7b09789bf5cf57') in 0.013690 seconds 
-  Import took 0.016631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.044620 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Walk.anim
-  artifactKey: Guid(eb09616be8ace3b4bbe55f742e9e603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Walk.anim using Guid(eb09616be8ace3b4bbe55f742e9e603b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57dcf0656896dde8b9c2c80552d3baa') in 0.007916 seconds 
-  Import took 0.011786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.677835 seconds.
-  path: Assets/Prefabs/Ball.prefab
-  artifactKey: Guid(e79b7fbf4aa41884c9a188154c38fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ball.prefab using Guid(e79b7fbf4aa41884c9a188154c38fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db38b8c30bc30add981bd16314c054') in 0.037232 seconds 
-  Import took 0.040885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Pistole.prefab
-  artifactKey: Guid(947a79eecec2b5b468504021814890c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Pistole.prefab using Guid(947a79eecec2b5b468504021814890c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7d44b53c037cc918a303947ae2a75d') in 0.011090 seconds 
-  Import took 0.014265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefabs/Ball.prefab
-  artifactKey: Guid(e79b7fbf4aa41884c9a188154c38fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Ball.prefab using Guid(e79b7fbf4aa41884c9a188154c38fb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db38b8c30bc30add981bd16314c054') in 0.007822 seconds 
-  Import took 0.011084 seconds .
+  Time since last request: 0.000233 seconds.
+  path: Assets/pic/water2.png
+  artifactKey: Guid(23602bab9308f1e448cb136a13ccae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/water2.png using Guid(23602bab9308f1e448cb136a13ccae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f2d6340dd487f98365a63a5eaa8fcd') in 0.015467 seconds 
+  Import took 0.019720 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000253 seconds.
-  path: Assets/Prefabs/Road.prefab
-  artifactKey: Guid(c209a8686f9cb5247b80094c9b230053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Road.prefab using Guid(c209a8686f9cb5247b80094c9b230053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0931ec8242932c2da2fa3b17e9cd3') in 0.014595 seconds 
-  Import took 0.017570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Prefabs/Line.prefab
-  artifactKey: Guid(44f01f1a94bccd449810aae6a7d5b72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Line.prefab using Guid(44f01f1a94bccd449810aae6a7d5b72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8ec63289cac7959640b66dc6ca9ee6') in 0.013481 seconds 
-  Import took 0.016353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Wolf.prefab
-  artifactKey: Guid(48f2a8c5ebc0a154f9c0198a2eac1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Wolf.prefab using Guid(48f2a8c5ebc0a154f9c0198a2eac1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1394235ca07b8915b30e692f84cf1881') in 0.045650 seconds 
-  Import took 0.049258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Prefabs/Road.prefab
-  artifactKey: Guid(c209a8686f9cb5247b80094c9b230053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Road.prefab using Guid(c209a8686f9cb5247b80094c9b230053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0931ec8242932c2da2fa3b17e9cd3') in 0.010773 seconds 
-  Import took 0.013890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Wolf.prefab
-  artifactKey: Guid(48f2a8c5ebc0a154f9c0198a2eac1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Prefabs/Wolf.prefab using Guid(48f2a8c5ebc0a154f9c0198a2eac1a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1394235ca07b8915b30e692f84cf1881') in 0.029324 seconds 
-  Import took 0.033035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.295616 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle.anim
-  artifactKey: Guid(2ac1df0d9f1fdf148b988933bbaec21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle.anim using Guid(2ac1df0d9f1fdf148b988933bbaec21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723925e53334811c4f5555a7d0aa87a6') in 0.006429 seconds 
-  Import took 0.009666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.421535 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle2.anim
-  artifactKey: Guid(ee7e836a544dc4c4593ba227ca096347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle2.anim using Guid(ee7e836a544dc4c4593ba227ca096347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc91b4206417b7122f4e77e517521d20') in 0.011272 seconds 
-  Import took 0.014292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.651342 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle3.anim
-  artifactKey: Guid(7887801a613921041be5d1faf7d540ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle3.anim using Guid(7887801a613921041be5d1faf7d540ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb854e998f31018d871637b5a2358c8c') in 0.006420 seconds 
-  Import took 0.009524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.781879 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle4.anim
-  artifactKey: Guid(b7dd0e8f0684deb4abfa2a600b0f103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle4.anim using Guid(b7dd0e8f0684deb4abfa2a600b0f103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700e07ff9922b6597cf1ecbb707ad4c8') in 0.007208 seconds 
-  Import took 0.010217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.735119 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle5.anim
-  artifactKey: Guid(352779c1a7b5bf14da0bad613b6a9073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Idle5.anim using Guid(352779c1a7b5bf14da0bad613b6a9073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4041c23871fa25e8f3294292ec282e') in 0.006537 seconds 
-  Import took 0.009858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.455895 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/IdleLadder.anim
-  artifactKey: Guid(8f3d2f218498efd488957e8c1c8763b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/IdleLadder.anim using Guid(8f3d2f218498efd488957e8c1c8763b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6efc8ffbb3968fc0ac1bec84d5557dd') in 0.006046 seconds 
-  Import took 0.009327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.694345 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Kick.anim
-  artifactKey: Guid(06155bdf04774f3458ab9dd18689fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Kick.anim using Guid(06155bdf04774f3458ab9dd18689fd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2d9918b9cd101b84c0864fbd7ae47e') in 0.006888 seconds 
-  Import took 0.010637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.617752 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Landing.anim
-  artifactKey: Guid(4a0d1fd95c4c54d4d8406df8a5b41296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Landing.anim using Guid(4a0d1fd95c4c54d4d8406df8a5b41296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d808e50e0d9c3d8b04a8ffc913971a') in 0.007324 seconds 
-  Import took 0.011168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.983850 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Punch.anim
-  artifactKey: Guid(8cfd0cf2aaaee5749b77bf701f7f1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Punch.anim using Guid(8cfd0cf2aaaee5749b77bf701f7f1d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ff9d2a4bd52460140495d3300723fd') in 0.010992 seconds 
-  Import took 0.014022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.301340 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Run.anim
-  artifactKey: Guid(27184e2570ca4554fb1f53387f3b9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Run.anim using Guid(27184e2570ca4554fb1f53387f3b9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23bee5ede4f90686c3cc451c6d7d5ec') in 0.007166 seconds 
-  Import took 0.010587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.687594 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/SpeedRun.anim
-  artifactKey: Guid(0752ca672250a594a9ccd52bd28306c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/SpeedRun.anim using Guid(0752ca672250a594a9ccd52bd28306c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccab1d5825ac0f0a63a755358650fe49') in 0.006543 seconds 
-  Import took 0.009648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.669438 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4JumpLanding.anim
-  artifactKey: Guid(720a58ca9a0e021498d99dfe8e88e5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4JumpLanding.anim using Guid(720a58ca9a0e021498d99dfe8e88e5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94405c3f2eabb97c6c495a7cba167d06') in 0.006864 seconds 
-  Import took 0.010221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.982582 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Run.anim
-  artifactKey: Guid(63d89de6f39f6f74db2ce33b7b967e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4Run.anim using Guid(63d89de6f39f6f74db2ce33b7b967e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107521ab5ec83455fe8363ddc13c56fd') in 0.006860 seconds 
-  Import took 0.010287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.112824 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4To2.anim
-  artifactKey: Guid(c12ddc4fdddc7764e9b7b48f973082d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/4To2.anim using Guid(c12ddc4fdddc7764e9b7b48f973082d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6abc4f7019ee55ddbe14914ec30841c') in 0.006728 seconds 
-  Import took 0.010033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.837668 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack1.anim
-  artifactKey: Guid(cc5b565e0f30051449bc1b8fd864ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack1.anim using Guid(cc5b565e0f30051449bc1b8fd864ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca24131355a7319098bc9865b1a0ac9f') in 0.007328 seconds 
-  Import took 0.011102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.980869 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack2.anim
-  artifactKey: Guid(85f0e8204f713cb4f9f4d95b10af9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack2.anim using Guid(85f0e8204f713cb4f9f4d95b10af9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fc47ad1cb7767e1c6ce4906b69f6d1') in 0.006742 seconds 
-  Import took 0.010197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.034553 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack3.anim
-  artifactKey: Guid(4616973f57c49fb4bae3893f5b48313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Attack3.anim using Guid(4616973f57c49fb4bae3893f5b48313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943feaa92c0a5efe96117ef07a0a5ff8') in 0.006175 seconds 
-  Import took 0.009228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.848944 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/ClimbingLadder.anim
-  artifactKey: Guid(860a76b65ac61124692ab309d941cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/ClimbingLadder.anim using Guid(860a76b65ac61124692ab309d941cb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5a3302f8a32429b51e59f820cec95e') in 0.006778 seconds 
-  Import took 0.009849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.524224 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/DieFront.anim
-  artifactKey: Guid(f2f6a864c5546934c8b4fafc48f53802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/DieFront.anim using Guid(f2f6a864c5546934c8b4fafc48f53802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735346addfaaaa59cbe2d38430cbbc9b') in 0.006074 seconds 
-  Import took 0.009156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.880226 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Fall.anim
-  artifactKey: Guid(bafc4b76db724f74fb5fe836e361265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/Fall.anim using Guid(bafc4b76db724f74fb5fe836e361265a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd725666c04b84ff2155ee10d37223c00') in 0.007040 seconds 
-  Import took 0.010204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.621642 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/FlyBack.anim
-  artifactKey: Guid(36c95f2b5743d6448a88c8cc3588208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Animation Controller/FlyBack.anim using Guid(36c95f2b5743d6448a88c8cc3588208e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b2cb1450a78730682bead318cb9583') in 0.006100 seconds 
-  Import took 0.009344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3031.022245 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas
-  artifactKey: Guid(5f246197c0d06ff4398c4ff9b52e6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas using Guid(5f246197c0d06ff4398c4ff9b52e6936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5114f3dd0acc61c5f946babb4c06c9ef') in 0.006640 seconds 
-  Import took 0.010401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079924 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf.png
-  artifactKey: Guid(5cd80995708881748a4a923a7bdc1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf.png using Guid(5cd80995708881748a4a923a7bdc1b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b2251059aa374a904101ddb9a8c804') in 0.031702 seconds 
-  Import took 0.034965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf3.mat
-  artifactKey: Guid(4ab82f9ca4edd4047beac48c2a52efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf3.mat using Guid(4ab82f9ca4edd4047beac48c2a52efe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e58e9f1e24af76a636c9c506a6ac6b9') in 0.039635 seconds 
-  Import took 0.042463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf2.mat
-  artifactKey: Guid(88170199a3bf31046b6a888c08dd2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf2.mat using Guid(88170199a3bf31046b6a888c08dd2aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7ba24b091e1ab8754de9bf208089b') in 0.010992 seconds 
-  Import took 0.013826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf5.mat
-  artifactKey: Guid(cadfabd589e95ba42b59edd6ed613ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf5.mat using Guid(cadfabd589e95ba42b59edd6ed613ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260aaa6720cb47cb821cdecddeb72a65') in 0.011599 seconds 
-  Import took 0.014705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf8.png
-  artifactKey: Guid(09de0eae1fca02b48beac056140d5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf8.png using Guid(09de0eae1fca02b48beac056140d5c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b762097cb30dc109dd51b83650d34b24') in 0.017217 seconds 
-  Import took 0.020389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf4.png
-  artifactKey: Guid(ed7403abd48d16b4aa9b55935e944fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf4.png using Guid(ed7403abd48d16b4aa9b55935e944fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78df97dfbc80ca79c89484e3ccddf2fd') in 0.021728 seconds 
-  Import took 0.024833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf9.mat
-  artifactKey: Guid(d65195cad0687e64180ff946c9e6a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf9.mat using Guid(d65195cad0687e64180ff946c9e6a841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b473e695db269be794a55728b173f7') in 0.011432 seconds 
-  Import took 0.014772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf3.png
-  artifactKey: Guid(17a36de044e11334f812284659cacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf3.png using Guid(17a36de044e11334f812284659cacd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b01ee82e5d10be9f2997a7b394bf7') in 0.016095 seconds 
-  Import took 0.019048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Atlas.asset
-  artifactKey: Guid(28046bb4b59f04b43b22ea2d9aa305f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Atlas.asset using Guid(28046bb4b59f04b43b22ea2d9aa305f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac11d72a11a2d0bb9435add16cfce49a') in 0.007416 seconds 
-  Import took 0.010546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf2.png
-  artifactKey: Guid(da1b009b08c3c254b92ebc21d7d89b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf2.png using Guid(da1b009b08c3c254b92ebc21d7d89b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0827d0e98d96b497324ef47766325a04') in 0.018226 seconds 
-  Import took 0.021241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf4.mat
-  artifactKey: Guid(0ae7fe909f75f334699dd262b8edf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf4.mat using Guid(0ae7fe909f75f334699dd262b8edf40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0136707bf9f218d38c9657c3a72d13e') in 0.012349 seconds 
-  Import took 0.015236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf6.png
-  artifactKey: Guid(1a96eeb62a3be234b9a7499e55b40e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf6.png using Guid(1a96eeb62a3be234b9a7499e55b40e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c998a1f39480eb0c90cd8b4818da0c95') in 0.016068 seconds 
-  Import took 0.019183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf8.mat
-  artifactKey: Guid(0d784222269d1ff44be6dcb31e62671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf8.mat using Guid(0d784222269d1ff44be6dcb31e62671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c6ba9faa710c69d382f154de3c12e2') in 0.010684 seconds 
-  Import took 0.013600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf7.mat
-  artifactKey: Guid(01b5533a662947044ba60f7581fe41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf7.mat using Guid(01b5533a662947044ba60f7581fe41e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b4a9100deac368f8b2ee34648c6f1b') in 0.013909 seconds 
-  Import took 0.017200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf5.png
-  artifactKey: Guid(6521bf1e5fe8ca04fa6940c24b72b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf5.png using Guid(6521bf1e5fe8ca04fa6940c24b72b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b68f4f2431308b6e94b7ecc8b36ab19') in 0.018730 seconds 
-  Import took 0.021973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf7.png
-  artifactKey: Guid(9a3d4a1773b20ae4b970691abae5cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf7.png using Guid(9a3d4a1773b20ae4b970691abae5cea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aa93606307bf0961dde295142c6dd6') in 0.018870 seconds 
-  Import took 0.021789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf9.png
-  artifactKey: Guid(098adf2534ae9ad4890e7ecf4fb4eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf9.png using Guid(098adf2534ae9ad4890e7ecf4fb4eef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd277175fd1bfe7dfc4b36e15ee2ce58c') in 0.020320 seconds 
-  Import took 0.023120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf6.mat
-  artifactKey: Guid(9bfb33e937bdedd44868122a094f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf6.mat using Guid(9bfb33e937bdedd44868122a094f0b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be4db94ad5d321884dc9783802807f') in 0.011125 seconds 
-  Import took 0.014010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf.mat
-  artifactKey: Guid(25da7f7b34a917b49a550ca787e00b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Free Platformer Char/asset/2D Free Wolf/Atlas/Wolf_Wolf.mat using Guid(25da7f7b34a917b49a550ca787e00b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db35eb2a55c90877533bc859c00da89e') in 0.014010 seconds 
-  Import took 0.017008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.983591 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(2f8d890ab9d2f5d4daf1b60879ad734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(2f8d890ab9d2f5d4daf1b60879ad734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0cc0bb5e185dbdcac55e192d470d3b') in 0.005945 seconds 
-  Import took 0.008906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.467993 seconds.
-  path: Assets/Scripts/DestroyScript.cs
-  artifactKey: Guid(6e15a8a0c01b3254f87256c63a395a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DestroyScript.cs using Guid(6e15a8a0c01b3254f87256c63a395a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae095e48c3c46b9480cdbd20711fd21f') in 0.010541 seconds 
-  Import took 0.013982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Scripts/DestroyScript.cs
-  artifactKey: Guid(6e15a8a0c01b3254f87256c63a395a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DestroyScript.cs using Guid(6e15a8a0c01b3254f87256c63a395a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae095e48c3c46b9480cdbd20711fd21f') in 0.002599 seconds 
-  Import took 0.005686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.238731 seconds.
-  path: Assets/pic/etch.png
-  artifactKey: Guid(b90a62e3cf3b5a941b2289fbb9f68747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/etch.png using Guid(b90a62e3cf3b5a941b2289fbb9f68747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a47092e2da6047f18973dbb40e504d') in 0.015112 seconds 
-  Import took 0.018730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/pic/Без имени-3.png
-  artifactKey: Guid(375cab39674753d44b8187f0fff06e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/Без имени-3.png using Guid(375cab39674753d44b8187f0fff06e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a21281df50e6fdaaaf905251176a97d') in 0.017467 seconds 
-  Import took 0.020908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/pic/etch2.png
-  artifactKey: Guid(66f31e48fa3dc034b9c86913ae0cfa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/etch2.png using Guid(66f31e48fa3dc034b9c86913ae0cfa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2932eaa2ec7a4a2a753af37545222a1e') in 0.019153 seconds 
-  Import took 0.023388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/pic/water1.png
-  artifactKey: Guid(572e458d8cbf8a246b0b75fa42cc41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/water1.png using Guid(572e458d8cbf8a246b0b75fa42cc41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c5147a238d334aa5147076cf7acc3f') in 0.025648 seconds 
-  Import took 0.029331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/pic/water.png
-  artifactKey: Guid(9b08bf96f6311594fb0b12064f045390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/water.png using Guid(9b08bf96f6311594fb0b12064f045390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c2925851571de0d1f79ad39af12bc') in 0.110201 seconds 
-  Import took 0.114261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012560 seconds.
-  path: Assets/pic/etch_2.png
-  artifactKey: Guid(ab2c70d2a233ab440948ce80c8fbb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/etch_2.png using Guid(ab2c70d2a233ab440948ce80c8fbb2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c34baae7c57fcec83819961f67a70') in 0.023679 seconds 
-  Import took 0.027379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/pic/etch_1.png
-  artifactKey: Guid(028183a344272864cbb1cea8ab895604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/etch_1.png using Guid(028183a344272864cbb1cea8ab895604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec7bdac52aa32d36cb426c226c080e4') in 0.021063 seconds 
-  Import took 0.024477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/pic/water2.png
-  artifactKey: Guid(23602bab9308f1e448cb136a13ccae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/water2.png using Guid(23602bab9308f1e448cb136a13ccae44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5357d9e4d7619c8494c3eddd09794a4e') in 0.023146 seconds 
-  Import took 0.026796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
   path: Assets/pic/etch1.png
   artifactKey: Guid(85c796f1e33aaa746bf43383edd1e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/etch1.png using Guid(85c796f1e33aaa746bf43383edd1e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffcae37146e094e89822e4d4cd98fbf') in 0.019803 seconds 
-  Import took 0.023936 seconds .
+Start importing Assets/pic/etch1.png using Guid(85c796f1e33aaa746bf43383edd1e719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8275b31da9852c85a0554df7bff01') in 0.012546 seconds 
+  Import took 0.016695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000156 seconds.
+  Time since last request: 0.000280 seconds.
   path: Assets/pic/kost.png
   artifactKey: Guid(a91862bbac507a041b39eae86d4e6f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/kost.png using Guid(a91862bbac507a041b39eae86d4e6f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d15f106d7f7a11c066e313be2a60edd') in 0.026190 seconds 
-  Import took 0.030307 seconds .
+Start importing Assets/pic/kost.png using Guid(a91862bbac507a041b39eae86d4e6f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce76b92350ee1a020cf041582b65628') in 0.023371 seconds 
+  Import took 0.027606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.139268 seconds.
-  path: Assets/pic/Grass/trava_1.png
-  artifactKey: Guid(318e4be2030546d4b85bfc31001b2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pic/Grass/trava_1.png using Guid(318e4be2030546d4b85bfc31001b2bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8beeb27f0492d49b4e6495614586a314') in 0.016678 seconds 
-  Import took 0.020405 seconds .
+  Time since last request: 8.793683 seconds.
+  path: Assets/pic/ышылф.png
+  artifactKey: Guid(b6cb7dda00ef4a84c82a49abf9e31e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/ышылф.png using Guid(b6cb7dda00ef4a84c82a49abf9e31e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84d2905591025d2b83cdf5eeadc09da') in 0.013205 seconds 
+  Import took 0.017312 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004202 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E6F8F790 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7DF13010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7DF13010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2D35030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1125ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (347ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
+Received Import Request.
+  Time since last request: 0.005388 seconds.
+  path: Assets/pic/ышылф.png
+  artifactKey: Guid(b6cb7dda00ef4a84c82a49abf9e31e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pic/ышылф.png using Guid(b6cb7dda00ef4a84c82a49abf9e31e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84d2905591025d2b83cdf5eeadc09da') in 0.011390 seconds 
+  Import took 0.016263 seconds .
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2580.
-Total: 2.811300 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.570500 ms  DeleteObjects: 0.015700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004581 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3BEE5C0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2739030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3BA3030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.107 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1107ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (448ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
-				AfterProcessingInitializeOnLoad (45ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.5 MB.
+Received Import Request.
+  Time since last request: 24.269182 seconds.
+  path: Assets/music/shagi.mp3
+  artifactKey: Guid(d5718f72b20ba7344950ce0cc1c59e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/shagi.mp3 using Guid(d5718f72b20ba7344950ce0cc1c59e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf47394a7ace4ee1f94b4cfb281b7bd') in 0.021782 seconds 
+  Import took 0.026629 seconds .
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 2.896800 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.644700 ms  DeleteObjects: 0.016700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004312 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3BEE5C0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2D35030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1090ms)
-		BeginReloadAssembly (102ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (451ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (358ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
+Received Import Request.
+  Time since last request: 0.003397 seconds.
+  path: Assets/music/shagi.mp3
+  artifactKey: Guid(d5718f72b20ba7344950ce0cc1c59e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/shagi.mp3 using Guid(d5718f72b20ba7344950ce0cc1c59e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf47394a7ace4ee1f94b4cfb281b7bd') in 0.010044 seconds 
+  Import took 0.016009 seconds .
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2584.
-Total: 2.717300 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.431000 ms  DeleteObjects: 0.017300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004548 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3BEE5C0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E377D510 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E377D510 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E881D4E0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
-Domain Reload Profiling:
-	ReloadAssembly (998ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (351ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2586.
-Total: 2.995100 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.713100 ms  DeleteObjects: 0.045400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004660 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E6F8F790 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E85020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1082ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (916ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 2.860600 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.083400 ms MarkObjects: 2.518000 ms  DeleteObjects: 0.018000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004295 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EABC5020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EA7BE230 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1013ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (356ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2590.
-Total: 2.765800 ms (FindLiveObjects: 0.171100 ms CreateObjectMapping: 0.071500 ms MarkObjects: 2.506600 ms  DeleteObjects: 0.015600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004324 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EABC5020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3D89020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.078 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1078ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2592.
-Total: 2.967500 ms (FindLiveObjects: 0.184900 ms CreateObjectMapping: 0.116400 ms MarkObjects: 2.648400 ms  DeleteObjects: 0.016800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004130 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EABC5020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E3BE9010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (992ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (344ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2594.
-Total: 2.726300 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.069800 ms MarkObjects: 2.436000 ms  DeleteObjects: 0.044700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004848 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E6F8F790 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7D3DE40 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7D3DE40 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EAB87080 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (934ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (452ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2596.
-Total: 2.809200 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.069100 ms MarkObjects: 2.554100 ms  DeleteObjects: 0.016500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004537 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7D34010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EAB87080 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (846ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (351ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2598.
-Total: 3.267900 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.886100 ms  DeleteObjects: 0.023000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004210 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2F83020 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EB2733B0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EB2733B0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2D35030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.018 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (853ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (355ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2600.
-Total: 2.880700 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.633900 ms  DeleteObjects: 0.016700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004578 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7D34010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EB2733B0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239EB2733B0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7DF37960 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (464ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (370ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2602.
-Total: 3.149000 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.864200 ms  DeleteObjects: 0.019000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004191 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E4349030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023B7DF37960 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1113ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (940ms)
-			LoadAssemblies (196ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (339ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2604.
-Total: 2.741800 ms (FindLiveObjects: 0.169800 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.482300 ms  DeleteObjects: 0.015900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004418 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000239E7F8C030 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7D34010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E274D1F0 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E2E1EC20 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000239E7CED010 doesn't match image C:\GitHub\tetraris_1\tetraris_1\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Domain Reload Profiling:
-	ReloadAssembly (972ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (806ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2606.
-Total: 2.986400 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.690200 ms  DeleteObjects: 0.018700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
