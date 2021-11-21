@@ -811,7 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4aa45dfd97b586408dddf07ed9abcee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  linePrefab: {fileID: 171510676286297677, guid: 44f01f1a94bccd449810aae6a7d5b72d, type: 3}
+  linePrefab: {fileID: 8502268110190957372, guid: d822b458e02b745439032472b8e21821, type: 3}
   currentLine: {fileID: 0}
   lineRenderer: {fileID: 0}
   edgeCollider: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &466350302
 SpriteRenderer:
   m_ObjectHideFlags: 0
