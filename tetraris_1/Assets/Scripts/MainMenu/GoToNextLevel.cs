@@ -18,10 +18,11 @@ public class GoToNextLevel : MonoBehaviour
 
     public void UnLockLevel()
     {
-        int currentLevel = SceneManager.GetActiveScene().buildIndex;
+        int currentLevel = SceneManager.GetActiveScene().buildIndex - 1;
+        Debug.Log(currentLevel);
         if (currentLevel >= PlayerPrefs.GetInt("levels"))
         {
-            PlayerPrefs.SetInt("levels", currentLevel + 1);
+            PlayerPrefs.SetInt("levels", currentLevel);
         }
     }
 

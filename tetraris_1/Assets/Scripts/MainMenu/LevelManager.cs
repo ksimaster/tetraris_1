@@ -14,16 +14,22 @@ public class LevelManager : MonoBehaviour
 
     void Start()
     {
-        levelUnLock = PlayerPrefs.GetInt("levels", 1);
+        levelUnLock = PlayerPrefs.GetInt("levels", 0);
 
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].interactable = false;
+            
         }
 
-        for (int i = 0; i <levelUnLock; i++)
+
+        for (int j = 0; j <=levelUnLock; j++)
         {
-            buttons[i].interactable = true;
+            if (levelUnLock > buttons.Length) levelUnLock=buttons.Length-1;
+            buttons[j].interactable = true;
+
+
+           // Debug.Log("Максимальная кнопка: " + i);
         }
     }
 
