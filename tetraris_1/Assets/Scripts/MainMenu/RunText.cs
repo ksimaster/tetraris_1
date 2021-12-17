@@ -8,7 +8,7 @@ public class RunText : MonoBehaviour
 {
     public Text TextGameObject;
     private string text;
-
+    public float speedText;
 
     private void Start()
     {
@@ -21,7 +21,7 @@ public class RunText : MonoBehaviour
         foreach (char abc in text)
         {
             TextGameObject.text += abc;
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(speedText);
         }
 
     }
