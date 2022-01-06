@@ -19,7 +19,7 @@ public class WolfScript : MonoBehaviour
     {
         animatorWolf.SetBool("isGrounded", groundDetection.isGrounded);
         isJumping = isJumping && !groundDetection.isGrounded;
-        direction = Vector2.zero; // (0, 0)
+        direction = Vector2.zero; // (0, 0) || добавлена проверка на наличие прыжка
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         { 
             direction = Vector2.left; // (-1, 0)
@@ -36,9 +36,9 @@ public class WolfScript : MonoBehaviour
             soundSteps.GetComponent<AudioSource>().mute = false; // Нет проверки на общее отключение звука
         }
 
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && groundDetection.isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space)/* || Input.GetKeyDown(KeyCode.UpArrow)*/ && groundDetection.isGrounded)
         {
-            rigidbodyWolf.AddForce(transform.up * force, ForceMode2D.Impulse);
+            rigidbodyWolf.AddForce(new Vector2(0, force));//(transform.up * force, ForceMode2D.Impulse); с использованием force mode
             animatorWolf.SetTrigger("StartJump");
             isJumping = true;
         }
