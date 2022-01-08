@@ -7,6 +7,7 @@ TagManager:
   - Stakes
   - Road
   - Cone
+  - Tale
   layers:
   - Default
   - TransparentFX

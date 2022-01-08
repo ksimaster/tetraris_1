@@ -84,11 +84,9 @@ GameObject:
   - component: {fileID: 95427405674940160}
   - component: {fileID: 982249420}
   - component: {fileID: 982249419}
-  - component: {fileID: 8831230579715604557}
   - component: {fileID: 982249424}
   - component: {fileID: 542387221}
   - component: {fileID: 6907655017884242329}
-  - component: {fileID: 38152105}
   - component: {fileID: 38152115}
   m_Layer: 0
   m_Name: Wolf
@@ -219,24 +217,6 @@ CapsuleCollider2D:
   m_Offset: {x: -0.3274988, y: 0.017895848}
   m_Size: {x: 0.56281596, y: 1.3797528}
   m_Direction: 0
---- !u!114 &8831230579715604557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991867599321214}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce5838c6cabbba14e81fb144bfcec2cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  animatorWolf: {fileID: 95427405674940160}
-  soundSteps: {fileID: 1991867599321214}
-  rigidbodyWolf: {fileID: 982249420}
-  force: 10
-  groundDetection: {fileID: 138270723}
 --- !u!114 &982249424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -443,27 +423,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &38152105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991867599321214}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4634141e2e095b842b3ad1ae8ec54c3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundCheck: {fileID: 0}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  animatorWolf: {fileID: 95427405674940160}
-  soundSteps: {fileID: 1991867599321214}
-  rigidbodyWolf: {fileID: 982249420}
-  jumpForce: 10
-  speed: 2.5
 --- !u!114 &38152115
 MonoBehaviour:
   m_ObjectHideFlags: 0

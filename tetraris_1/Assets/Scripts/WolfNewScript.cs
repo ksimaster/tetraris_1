@@ -41,7 +41,7 @@ public class WolfNewScript : MonoBehaviour
             soundSteps.GetComponent<AudioSource>().mute = false; // Нет проверки на общее отключение звука
         }
 
-        if (Input.GetKey(KeyCode.Space)/* || Input.GetKeyDown(KeyCode.UpArrow)*/ && groundDetection.isGrounded)
+        if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && groundDetection.isGrounded)
         {
             rigidbodyWolf.AddForce(new Vector2(0, force));//(transform.up * force, ForceMode2D.Impulse); с использованием force mode
             // animatorWolf.SetTrigger("StartJump");
