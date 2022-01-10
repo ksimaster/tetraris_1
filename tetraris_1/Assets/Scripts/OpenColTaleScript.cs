@@ -6,21 +6,22 @@ using UnityEngine.SceneManagement;
 public class OpenColTaleScript : MonoBehaviour
 {
     [SerializeField]
-    public string destroyCol;
-    public string nameResetScene;
+    public string taleCol;
+    public GameObject panelTale;
+    public GameObject drawController;
+    private bool isFirst = true;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag(destroyCol))
-        {
-            
-
-            if (gameObject.CompareTag("Player"))
+        if (isFirst) { 
+            if (col.gameObject.CompareTag(taleCol))
             {
-
-                SceneManager.LoadScene(nameResetScene);
+                drawController.SetActive(false);
+                panelTale.SetActive(true);
+                isFirst = false;
+                Time.timeScale = 0;
+                gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
             }
-            Destroy(gameObject);
         }
     }
 }
