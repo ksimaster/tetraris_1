@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnObject: {fileID: 3857250791723353865, guid: b8f6d175cae05b244adcf5c187513495, type: 3}
   SpawnPoint: {fileID: 8024735676945602728}
-  minX: -1
+  minX: -0.1
   minY: -2
-  maxX: 1
+  maxX: 0.1
   maxY: 0.7

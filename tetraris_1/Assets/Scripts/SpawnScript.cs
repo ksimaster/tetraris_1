@@ -34,15 +34,15 @@ public class SpawnScript : MonoBehaviour
     IEnumerator salvo()
     {
         CreateSpawnObject();
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(Random.Range(1.0f, 2.0f));
         CreateSpawnObject();
-        yield return new WaitForSeconds(1.7f);
+        yield return new WaitForSeconds(Random.Range(0.9f, 1.7f));
         CreateSpawnObject();
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(Random.Range(0.5f, 1.3f));
         CreateSpawnObject();
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(Random.Range(0.5f, 1.3f));
         CreateSpawnObject();
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(Random.Range(0.5f, 1.3f));
 
         speedSpawn = 2.5f;
         while (speedSpawn >= 0.1f)
@@ -50,7 +50,7 @@ public class SpawnScript : MonoBehaviour
             CreateSpawnObject();
             yield return new WaitForSeconds(speedSpawn);
             speedSpawn -= 0.1f;
-            if (speedSpawn <= 0.2f) speedSpawn += 0.4f;
+            if (speedSpawn <= 0.2f) speedSpawn += Random.Range(0.5f, 1.3f);
         }        
     }
 

@@ -28,7 +28,7 @@ public class ConeMoveScript : MonoBehaviour
         {
             rotateZ = 0;
             rightForce = 0;
-            Invoke("DestroyCone", 2f);
+            Invoke("DestroyCone", 0.5f);
         }
 
 
