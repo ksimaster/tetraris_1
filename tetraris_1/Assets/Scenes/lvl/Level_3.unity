@@ -3331,7 +3331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 982249424, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: nameResetScene
-      value: Level_2
+      value: Level_3
       objectReference: {fileID: 0}
     - target: {fileID: 1991867599321214, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: m_Name
@@ -3383,6 +3383,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+--- !u!1 &470623647 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991867599321214, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+  m_PrefabInstance: {fileID: 470623646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &470623648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470623647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e15a8a0c01b3254f87256c63a395a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyCol: Stakes
+  nameResetScene: Level_3
 --- !u!1001 &475879367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6767,8 +6786,8 @@ Transform:
   - {fileID: 316183515}
   - {fileID: 488431012}
   - {fileID: 746060249}
-  - {fileID: 274433254}
   - {fileID: 168962012}
+  - {fileID: 274433254}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9428,7 +9447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3389673506767956066, guid: c209a8686f9cb5247b80094c9b230053, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3389673506767956066, guid: c209a8686f9cb5247b80094c9b230053, type: 3}
       propertyPath: m_Offset.x
@@ -11701,7 +11720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3389673506767956066, guid: c209a8686f9cb5247b80094c9b230053, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3389673506767956066, guid: c209a8686f9cb5247b80094c9b230053, type: 3}
       propertyPath: m_Offset.x

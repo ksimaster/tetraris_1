@@ -9,6 +9,7 @@ public class ConeMoveScript : MonoBehaviour
     private float rightForce = 0.6f;
     public string collisionTag;
     public string collisionTagSelf;
+    public float timeLife;
 
 
 
@@ -28,7 +29,7 @@ public class ConeMoveScript : MonoBehaviour
         {
             rotateZ = 0;
             rightForce = 0;
-            Invoke("DestroyCone", 0.5f);
+            Invoke("DestroyCone", timeLife);
         }
 
 

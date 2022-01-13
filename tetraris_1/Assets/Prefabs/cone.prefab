@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collisionTag: Road
   collisionTagSelf: Cone
-  player: {fileID: 0}
+  timeLife: 0.5
 --- !u!50 &3857250791723353869
 Rigidbody2D:
   serializedVersion: 4
