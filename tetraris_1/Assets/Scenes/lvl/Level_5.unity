@@ -3268,7 +3268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 982249424, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: destroyCol
-      value: Cone
+      value: Stakes
       objectReference: {fileID: 0}
     - target: {fileID: 982249424, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: nameResetScene
@@ -5568,6 +5568,10 @@ PrefabInstance:
       value: SpawnBonePoint
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
+      propertyPath: maxX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: spawnObject
       value: 
       objectReference: {fileID: 7023501965665142483, guid: aa405a888a7c6e24680436aa7ee3a609, type: 3}
@@ -5577,7 +5581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602730, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.03
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602730, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6279,11 +6283,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: maxX
-      value: 0.15
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
+      propertyPath: maxY
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: minX
-      value: -0.15
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
+      propertyPath: minY
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: spawnObject
@@ -11980,11 +11992,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: maxX
-      value: 0.15
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
+      propertyPath: maxY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: minX
-      value: -0.15
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602729, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: spawnObject
@@ -11996,7 +12012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602730, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.59
+      value: 5.84
       objectReference: {fileID: 0}
     - target: {fileID: 8024735676945602730, guid: d9b17c90efb6067418e45d47b485fdd2, type: 3}
       propertyPath: m_LocalPosition.y
