@@ -97,9 +97,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864553aebd807fe4e888420f678766b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 7
   collisionTag: Road
   collisionTagSelf: Cone
-  timeLife: 1.5
+  timeLife: 0.5
 --- !u!50 &3857250791723353869
 Rigidbody2D:
   serializedVersion: 4

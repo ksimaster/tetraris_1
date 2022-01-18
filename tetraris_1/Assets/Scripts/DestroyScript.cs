@@ -8,6 +8,7 @@ public class DestroyScript : MonoBehaviour
     [SerializeField]
     public string destroyCol;
     public string nameResetScene;
+    public GameObject panelFinish;
 
     private void OnCollisionEnter2D(Collision2D col)
     {
@@ -15,12 +16,18 @@ public class DestroyScript : MonoBehaviour
         {
             
 
-            if (gameObject.CompareTag("Player"))
+            if (gameObject.CompareTag("Player") && nameResetScene != "Level_5")
             {
 
                 SceneManager.LoadScene(nameResetScene);
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
+            else
+            {
+                Time.timeScale = 0;
+                panelFinish.SetActive(true);
+            }
+            
         }
     }
 }

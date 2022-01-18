@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7023501965665142481}
   - component: {fileID: 7023501965665142480}
   - component: {fileID: 7023501965665142486}
-  - component: {fileID: -3615844428519150583}
   - component: {fileID: 7162680969152286805}
   - component: {fileID: -7143164774174257860}
+  - component: {fileID: -7303347029265612563}
   m_Layer: 0
   m_Name: kost
   m_TagString: Bone
@@ -112,22 +112,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 4.843752}
   m_EdgeRadius: 0
---- !u!114 &-3615844428519150583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7023501965665142483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 864553aebd807fe4e888420f678766b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 5
-  collisionTag: Road
-  collisionTagSelf: Bone
-  timeLife: 1.5
 --- !u!50 &7162680969152286805
 Rigidbody2D:
   serializedVersion: 4
@@ -175,3 +159,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 4.8251452}
   m_EdgeRadius: 0
+--- !u!114 &-7303347029265612563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7023501965665142483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268b492eda2e1614cbf2310b3b73c904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 7
+  collisionTag: Road
+  timeLife: 1
