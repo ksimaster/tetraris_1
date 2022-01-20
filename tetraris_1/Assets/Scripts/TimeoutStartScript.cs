@@ -6,19 +6,19 @@ public class TimeoutStartScript : MonoBehaviour
 {
     public GameObject TimeoutObject;
 
-    IEnumerator Timeout()
+   /* IEnumerator Timeout()
     {
         yield return new WaitForSeconds(10f);
     }
-
+    */
     public void OnStart()
     {
         
-        StartCoroutine("Timeout");
+      //  StartCoroutine("Timeout");
        
 
         TimeoutObject.SetActive(true);
-        for (int i=1; i<10; i++)
+      /*  for (int i=1; i<10; i++)
         {
             if (i % 2 == 0)
             {
@@ -35,6 +35,7 @@ public class TimeoutStartScript : MonoBehaviour
                 StartCoroutine("Timeout");
             }
         }
+        TimeoutObject.SetActive(true); */
     }
 
 

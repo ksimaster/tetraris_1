@@ -27,8 +27,10 @@ public class ObjectMoveScript : MonoBehaviour
         // Debug.Log(col.gameObject.name);
         if (col.gameObject.CompareTag(collisionTag)||col.gameObject)
         {
+        
             rotateZ = 0;
             rightForce = 0;
+
             Invoke("DestroyCone", timeLife);
         }
 

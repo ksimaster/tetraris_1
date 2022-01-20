@@ -100,7 +100,7 @@ MonoBehaviour:
   rotateSpeed: 7
   collisionTag: Road
   collisionTagSelf: Cone
-  timeLife: 0.5
+  timeLife: 0.2
 --- !u!50 &3857250791723353869
 Rigidbody2D:
   serializedVersion: 4
@@ -135,6 +135,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.018574238, y: 0}
-  m_Size: {x: 0.53193235, y: 0.6879549}
+  m_Offset: {x: -0.011606932, y: -0.017418087}
+  m_Size: {x: 0.35775137, y: 0.57647884}
   m_Direction: 0
