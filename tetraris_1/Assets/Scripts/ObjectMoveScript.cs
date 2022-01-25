@@ -9,7 +9,9 @@ public class ObjectMoveScript : MonoBehaviour
     private float rightForce = 0.6f;
     public string collisionTag;
     public string collisionTagSelf;
+    public string collisionOff;
     public float timeLife;
+
 
 
 
@@ -31,16 +33,17 @@ public class ObjectMoveScript : MonoBehaviour
             rotateZ = 0;
             rightForce = 0;
 
-            Invoke("DestroyCone", timeLife);
+            Destroy(gameObject, timeLife);
         }
+        /*
+        if (col.gameObject.CompareTag(collisionOff))
+        {
 
-
+        }
+        */
     }
 
-    public void DestroyCone()
-    {
-        Destroy(gameObject);
-    }
+
 
 
 }
