@@ -9,6 +9,9 @@ TagManager:
   - Cone
   - Tale
   - Bone
+  - BG_MUSIC_VOLUME_SLIDER
+  - BG_MUSIC_VOLUME_TEXT
+  - BG_MUSIC_CREATED
   layers:
   - Default
   - TransparentFX
