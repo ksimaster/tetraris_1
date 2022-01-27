@@ -25,6 +25,7 @@ public class DestroyScript : MonoBehaviour
             else
             {
                 Time.timeScale = 0;
+                gameObject.GetComponent<AudioSource>().mute = true;
                 panelFinish.SetActive(true);
             }
             

@@ -2501,6 +2501,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 470623647}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: set_mute
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1935816095}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -3719,6 +3731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+--- !u!82 &470623647 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 542387221, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+  m_PrefabInstance: {fileID: 470623646}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &475879367
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5813,6 +5830,7 @@ MonoBehaviour:
   taleCol: Player
   panelTale: {fileID: 382669429}
   drawController: {fileID: 466042653}
+  steps: {fileID: 0}
 --- !u!1 &830035228
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,6 +13892,7 @@ MonoBehaviour:
   taleCol: Player
   panelTale: {fileID: 179481514}
   drawController: {fileID: 466042653}
+  steps: {fileID: 0}
 --- !u!1 &2096374733
 GameObject:
   m_ObjectHideFlags: 0

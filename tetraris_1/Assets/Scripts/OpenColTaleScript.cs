@@ -9,6 +9,7 @@ public class OpenColTaleScript : MonoBehaviour
     public string taleCol;
     public GameObject panelTale;
     public GameObject drawController;
+    public AudioSource steps;
     private bool isFirst = true;
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -17,6 +18,7 @@ public class OpenColTaleScript : MonoBehaviour
             if (col.gameObject.CompareTag(taleCol))
             {
                 drawController.SetActive(false);
+                steps.mute = true;
                 panelTale.SetActive(true);
                 isFirst = false;
                 Time.timeScale = 0;
