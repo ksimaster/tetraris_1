@@ -11368,6 +11368,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SetActive
       objectReference: {fileID: 0}
+    - target: {fileID: 4545965543701433807, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4545965543828959824, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
       propertyPath: m_SizeDelta.y
       value: 315.6227
