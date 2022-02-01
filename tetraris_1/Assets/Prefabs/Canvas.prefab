@@ -1420,21 +1420,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8170363049147811490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4545965543701433805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c8ff9a933f7efa4095af6e343cd06a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myFX: {fileID: 899240449448491333}
-  hoverFx: {fileID: 8300000, guid: f8772640a7b92874f8abb6fe67730472, type: 3}
-  clickFx: {fileID: 8300000, guid: ba64ff56866c5fa49bfe0816e4e14c6d, type: 3}
 --- !u!114 &3874996208585963805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1480,6 +1465,21 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &8170363049147811490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4545965543701433805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8ff9a933f7efa4095af6e343cd06a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myFX: {fileID: 899240449448491333}
+  hoverFx: {fileID: 8300000, guid: f8772640a7b92874f8abb6fe67730472, type: 3}
+  clickFx: {fileID: 8300000, guid: ba64ff56866c5fa49bfe0816e4e14c6d, type: 3}
 --- !u!1 &4545965544063098878
 GameObject:
   m_ObjectHideFlags: 0
