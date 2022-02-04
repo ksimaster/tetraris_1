@@ -13,7 +13,18 @@ public class WolfNewScript : MonoBehaviour
     public Rigidbody2D rigidbodyWolf;
     public float force;
     public GroundDetection groundDetection;
+    public GameObject legs;
+    public GameObject head;
+    public Vector2 legsPosition;
+    public Vector2 headPosition;
+
     private bool isJumping;
+
+    private void Awake()
+    {
+        legsPosition = new Vector2(legs.transform.localPosition.x, legs.transform.localPosition.y);
+        headPosition = new Vector2(head.transform.localPosition.x, head.transform.localPosition.y);
+    }
 
     private void FixedUpdate()
     {
@@ -65,9 +76,25 @@ public class WolfNewScript : MonoBehaviour
     public void Flip()
     {
         if (direction.x > 0)
+        {
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            if(legs.transform.localPosition.x != legsPosition.x && head.transform.localPosition.x != headPosition.x) { 
+                gameObject.transform.position = new Vector2(gameObject.transform.position.x + 0.6f, gameObject.transform.position.y);
+                legs.transform.localPosition = legsPosition;
+                head.transform.localPosition = headPosition; 
+            }
+        }
+            
         if (direction.x < 0)
+        {
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            if(legs.transform.localPosition.x == legsPosition.x && head.transform.localPosition.x == headPosition.x) { 
+                gameObject.transform.position = new Vector2(gameObject.transform.position.x - 0.6f, gameObject.transform.position.y);
+                legs.transform.localPosition = new Vector2(legs.transform.localPosition.x + 0.634f, legs.transform.localPosition.y);
+                head.transform.localPosition = new Vector2(head.transform.localPosition.x + 0.289f, head.transform.localPosition.y);
+            }
+        }
+            
     }
 
 
