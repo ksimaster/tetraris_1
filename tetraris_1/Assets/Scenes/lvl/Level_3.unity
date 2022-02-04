@@ -828,6 +828,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 470623650}
     m_Modifications:
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: nameResetScene
+      value: Level_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: audioSourceObject
+      value: 
+      objectReference: {fileID: 470623647}
     - target: {fileID: 8324929373660253283, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
       propertyPath: m_Name
       value: Head
@@ -3451,6 +3459,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6135385203133954087, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+      propertyPath: nameResetScene
+      value: Level_3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
 --- !u!1 &470623647 stripped
@@ -3458,21 +3470,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1991867599321214, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
   m_PrefabInstance: {fileID: 470623646}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &470623648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470623647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e15a8a0c01b3254f87256c63a395a08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyCol: Stakes
-  nameResetScene: Level_3
-  panelFinish: {fileID: 0}
 --- !u!1 &470623649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 138270722, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}

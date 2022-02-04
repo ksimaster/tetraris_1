@@ -4146,6 +4146,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6135385203133954087, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+      propertyPath: nameResetScene
+      value: Level_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6907655017884242329, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6907655017884242329, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: MinDistance
       value: 0.49519014
@@ -6735,6 +6743,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 470623649}
     m_Modifications:
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: panelFinish
+      value: 
+      objectReference: {fileID: 638797813}
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: nameResetScene
+      value: Level_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: audioSourceObject
+      value: 
+      objectReference: {fileID: 257081079}
     - target: {fileID: 8324929373660253283, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
       propertyPath: m_Name
       value: Head

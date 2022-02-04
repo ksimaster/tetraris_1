@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 138270725}
   - component: {fileID: 138270724}
   - component: {fileID: 138270723}
+  - component: {fileID: 6135385203133954087}
   m_Layer: 0
   m_Name: Legs
   m_TagString: Untagged
@@ -71,6 +72,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
+--- !u!114 &6135385203133954087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138270722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e15a8a0c01b3254f87256c63a395a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyCol: Stakes
+  nameResetScene: Level_1
+  audioSourceObject: {fileID: 1991867599321214}
+  panelFinish: {fileID: 0}
 --- !u!1 &1991867599321214
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,9 +101,7 @@ GameObject:
   - component: {fileID: 95427405674940160}
   - component: {fileID: 982249420}
   - component: {fileID: 982249419}
-  - component: {fileID: 982249424}
   - component: {fileID: 542387221}
-  - component: {fileID: 6907655017884242329}
   - component: {fileID: 38152115}
   m_Layer: 0
   m_Name: Wolf
@@ -217,117 +232,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.3274988, y: 0.017895848}
   m_Size: {x: 0.56281596, y: 1.3797528}
   m_Direction: 0
---- !u!114 &982249424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991867599321214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e15a8a0c01b3254f87256c63a395a08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyCol: Stakes
-  nameResetScene: Level_1
 --- !u!82 &542387221
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1991867599321214}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7f7b8efdccd5f404586dc8e24d9c6927, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 1
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!82 &6907655017884242329
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,3 +346,7 @@ MonoBehaviour:
   rigidbodyWolf: {fileID: 982249420}
   force: 150
   groundDetection: {fileID: 138270723}
+  legs: {fileID: 0}
+  head: {fileID: 0}
+  legsPosition: {x: 0, y: 0}
+  headPosition: {x: 0, y: 0}

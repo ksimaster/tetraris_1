@@ -8,6 +8,7 @@ public class DestroyScript : MonoBehaviour
     [SerializeField]
     public string destroyCol;
     public string nameResetScene;
+    public GameObject audioSourceObject;
     public GameObject panelFinish;
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -25,8 +26,15 @@ public class DestroyScript : MonoBehaviour
             else
             {
                 Time.timeScale = 0;
-                gameObject.GetComponent<AudioSource>().mute = true;
+                audioSourceObject.GetComponent<AudioSource>().mute = true;
+                
                 panelFinish.SetActive(true);
+            }
+
+            if(destroyCol == "Stakes")
+            {
+                SceneManager.LoadScene(nameResetScene);
+                Destroy(gameObject);
             }
             
         }

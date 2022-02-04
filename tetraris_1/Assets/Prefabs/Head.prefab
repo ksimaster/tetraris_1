@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8324929373660253292}
   - component: {fileID: 8324929373660253293}
+  - component: {fileID: 7110868103837287623}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,3 +48,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.26
+--- !u!114 &7110868103837287623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324929373660253283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e15a8a0c01b3254f87256c63a395a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyCol: Cone
+  nameResetScene: Level_1
+  panelFinish: {fileID: 0}
