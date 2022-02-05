@@ -26,4 +26,13 @@ public class GoToNextLevel : MonoBehaviour
         }
     }
 
+    
+    //выполняется после полного просмотра рекламного ролика из рекламного скрипта
+    public void ADUnlockLevel()
+    {
+        
+        UnLockLevel();
+        SceneManager.LoadScene(1);
+    }
+
 }
