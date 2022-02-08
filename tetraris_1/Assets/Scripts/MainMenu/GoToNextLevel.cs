@@ -5,13 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class GoToNextLevel : MonoBehaviour
 {
+    public AudioClip win;
     private void OnTriggerEnter2D(Collider2D collision)
 
     {
         if (collision.CompareTag("Player"))
         {
-            UnLockLevel();
-            SceneManager.LoadScene(1);
+            gameObject.GetComponent<SpriteRenderer>().sprite = null;
+            gameObject.GetComponent<AudioSource>().PlayOneShot(win);
+            Invoke("OpenLevelScenes", 1.4f);
         }
     }
 
@@ -31,6 +33,12 @@ public class GoToNextLevel : MonoBehaviour
     public void ADUnlockLevel()
     {
         
+        UnLockLevel();
+        SceneManager.LoadScene(1);
+    }
+
+    public void OpenLevelScenes()
+    {
         UnLockLevel();
         SceneManager.LoadScene(1);
     }
