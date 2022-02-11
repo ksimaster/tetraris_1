@@ -12,6 +12,7 @@ TagManager:
   - BG_MUSIC_VOLUME_SLIDER
   - BG_MUSIC_VOLUME_TEXT
   - BG_MUSIC_CREATED
+  - SpawnLevel
   layers:
   - Default
   - TransparentFX
