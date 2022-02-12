@@ -35,12 +35,7 @@ public class ObjectMoveScript : MonoBehaviour
 
             Destroy(gameObject, timeLife);
         }
-        /*
-        if (col.gameObject.CompareTag(collisionOff))
-        {
-
-        }
-        */
+ 
     }
 
 

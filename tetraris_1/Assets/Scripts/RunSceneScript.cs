@@ -6,15 +6,16 @@ public class RunSceneScript : MonoBehaviour
 {
     public float offset;
     public GameObject objectMove;
+    public float xInstantiate;
 
     void FixedUpdate()
     {
         // выщитываетм новую позицию объекта
         transform.position = new Vector2(transform.position.x - offset, transform.position.y);
-       if (transform.position.x <= -30.5f)
+       /*if (transform.position.x <= -30.5f)
         {
             Destroy(gameObject);
-        }
+        } */
  
     }
 
@@ -22,7 +23,8 @@ public class RunSceneScript : MonoBehaviour
     {
         if (col.gameObject.CompareTag("SpawnLevel"))
         {
-            Instantiate(objectMove, new Vector2(36.2f, -0.2132f), Quaternion.identity);
+            Instantiate(objectMove, new Vector2(xInstantiate, -0.2132f), Quaternion.identity);
+            Destroy(gameObject);
         }
     }
 }
