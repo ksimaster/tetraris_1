@@ -5207,7 +5207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: 0.08
   objectMove: {fileID: 6165883945767223286}
-  xInstantiate: 34.19
+  xInstantiate: 28
 --- !u!61 &778889054868916302
 BoxCollider2D:
   m_ObjectHideFlags: 0

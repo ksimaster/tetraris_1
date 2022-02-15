@@ -196,6 +196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 778889054868916302, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883944684394450, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -204,6 +208,10 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
+    - target: {fileID: 6165883944829730238, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.96
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_Name
       value: LevelScene_0 (2)
@@ -214,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223287, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 35.93
+      value: 36.14
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223287, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_LocalPosition.y
@@ -254,7 +262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: xInstantiate
-      value: 29.19
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165883945862967885, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6165883946045566077, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
@@ -3434,8 +3446,8 @@ Camera:
   m_GameObject: {fileID: 1420204610}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3476,7 +3488,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420204610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.029999971, y: -1.4, z: -10}
+  m_LocalPosition: {x: 0, y: -1.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3489,6 +3501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 778889054868916302, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883944684394450, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -3497,6 +3513,10 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
+    - target: {fileID: 6165883944829730238, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.96
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_Name
       value: LevelScene_0 (1)
@@ -3507,7 +3527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223287, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.8
+      value: 17.88
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223287, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3547,7 +3567,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: xInstantiate
-      value: 29.19
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165883945862967885, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6165883946045566077, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
@@ -4653,6 +4677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 778889054868916302, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883944684394450, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -4661,6 +4689,10 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
+    - target: {fileID: 6165883944829730238, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.96
+      objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_Name
       value: LevelScene_0
@@ -4711,7 +4743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: xInstantiate
-      value: 29.19
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165883945862967885, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6165883946045566077, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
