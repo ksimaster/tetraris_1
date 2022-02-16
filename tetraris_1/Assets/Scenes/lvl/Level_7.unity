@@ -7102,6 +7102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
+--- !u!1 &1087396317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5029273538987742841, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
+  m_PrefabInstance: {fileID: 1087396316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1095339553
 GameObject:
   m_ObjectHideFlags: 0
@@ -8540,6 +8545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &1280457380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12549,6 +12555,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2075224430}
     m_Modifications:
     - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: panelFinish
+      value: 
+      objectReference: {fileID: 1087396317}
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
       propertyPath: nameResetScene
       value: Level_7
       objectReference: {fileID: 0}
@@ -13414,6 +13424,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6135385203133954087, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+      propertyPath: panelFinish
+      value: 
+      objectReference: {fileID: 1087396317}
     - target: {fileID: 6135385203133954087, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: nameResetScene
       value: Level_7

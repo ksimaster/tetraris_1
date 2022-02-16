@@ -593,6 +593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &84889602
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2917,6 +2918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &407724504
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5047,6 +5049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &713010082
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9215,6 +9218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &1280457380
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12820,6 +12824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52c654394e3057408575362e5779203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  win: {fileID: 0}
 --- !u!61 &1812608856
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13585,6 +13590,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2075224430}
     m_Modifications:
+    - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
+      propertyPath: panelFinish
+      value: 
+      objectReference: {fileID: 1355947242}
     - target: {fileID: 7110868103837287623, guid: 12723363a8440ba4abd453edd17180a4, type: 3}
       propertyPath: nameResetScene
       value: Level_9
