@@ -4370,6 +4370,10 @@ PrefabInstance:
       propertyPath: legs
       value: 
       objectReference: {fileID: 2075224429}
+    - target: {fileID: 38152115, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 982249419, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4457,6 +4461,48 @@ Transform:
 --- !u!1 &2075224431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1991867599321214, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+  m_PrefabInstance: {fileID: 2075224428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2075224432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075224431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 476a2ffde0a5cd14fa1012c3c3c72e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorWolf: {fileID: 2075224440}
+  soundSteps: {fileID: 2075224431}
+  rigidbodyWolf: {fileID: 2075224439}
+  force: 40
+  groundDetection: {fileID: 2075224436}
+  legs: {fileID: 2075224429}
+  head: {fileID: 1966037710}
+  legsPosition: {x: 0, y: 0}
+  headPosition: {x: 0, y: 0}
+--- !u!114 &2075224436 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 138270723, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+  m_PrefabInstance: {fileID: 2075224428}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075224429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db5378765670c649bbf88ba159d38e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &2075224439 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 982249420, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
+  m_PrefabInstance: {fileID: 2075224428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2075224440 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95427405674940160, guid: 48f2a8c5ebc0a154f9c0198a2eac1a05, type: 3}
   m_PrefabInstance: {fileID: 2075224428}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2139338796
