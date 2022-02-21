@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Assets.N.Fridman.BackgroundInstanceController.Scripts
 {
@@ -7,7 +8,9 @@ namespace Assets.N.Fridman.BackgroundInstanceController.Scripts
         [Header("Tags")]
         [Tooltip("Unique Object Tag")]
         [SerializeField] private string createdTag;
-        
+       // [SerializeField] private string createdTag;
+
+
         private void Awake()
         {
             GameObject obj = GameObject.FindWithTag(this.createdTag);
@@ -20,6 +23,12 @@ namespace Assets.N.Fridman.BackgroundInstanceController.Scripts
                 this.gameObject.tag = this.createdTag;
                 DontDestroyOnLoad(this.gameObject);
             }
+            
+        }
+        private void Start()
+        {
+            if (SceneManager.GetActiveScene().name == "MainMenu") gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().name = "fon_music_1";
+            Debug.Log(gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().name);
         }
     }
 }
