@@ -4737,6 +4737,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createdTag: BG_MUSIC_CREATED
+  defaultClip: {fileID: 8300000, guid: cb908af969057c447bfe36d69162317d, type: 3}
+  clipFor10Lvl: {fileID: 8300000, guid: 8ead91edc1ae5e14b8bc39cd9d8a168b, type: 3}
 --- !u!114 &2141045263
 MonoBehaviour:
   m_ObjectHideFlags: 0

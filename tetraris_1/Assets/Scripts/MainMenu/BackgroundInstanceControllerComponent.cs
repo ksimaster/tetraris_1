@@ -8,7 +8,9 @@ namespace Assets.N.Fridman.BackgroundInstanceController.Scripts
         [Header("Tags")]
         [Tooltip("Unique Object Tag")]
         [SerializeField] private string createdTag;
-       // [SerializeField] private string createdTag;
+        [SerializeField] private AudioClip defaultClip;
+        [SerializeField] private AudioClip clipFor10Lvl;
+       
 
 
         private void Awake()
@@ -24,11 +26,16 @@ namespace Assets.N.Fridman.BackgroundInstanceController.Scripts
                 DontDestroyOnLoad(this.gameObject);
             }
             
-        }
-        private void Start()
-        {
-            if (SceneManager.GetActiveScene().name == "MainMenu") gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().name = "fon_music_1";
-            Debug.Log(gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().name);
-        }
+            Debug.Log(SceneManager.GetActiveScene().name.ToString());
+      
+            if (SceneManager.GetActiveScene().name == "MainMenu"){
+                gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().Equals(clipFor10Lvl);
+            }
+            else
+            {
+                gameObject.GetComponent<AudioSource>().GetComponent<AudioClip>().Equals(defaultClip);
+            }
+         }   
+        
     }
 }
