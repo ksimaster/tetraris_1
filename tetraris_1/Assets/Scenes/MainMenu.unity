@@ -4703,6 +4703,7 @@ GameObject:
   - component: {fileID: 2141045264}
   - component: {fileID: 2141045263}
   - component: {fileID: 2141045262}
+  - component: {fileID: 2141045265}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -4737,8 +4738,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   createdTag: BG_MUSIC_CREATED
-  defaultClip: {fileID: 8300000, guid: cb908af969057c447bfe36d69162317d, type: 3}
-  clipFor10Lvl: {fileID: 8300000, guid: 8ead91edc1ae5e14b8bc39cd9d8a168b, type: 3}
 --- !u!114 &2141045263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4854,3 +4853,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2141045265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141045260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2dd90d8f2551234f9b0ef837deedb75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultClip: {fileID: 8300000, guid: cb908af969057c447bfe36d69162317d, type: 3}
+  clipFor10Lvl: {fileID: 8300000, guid: 8ead91edc1ae5e14b8bc39cd9d8a168b, type: 3}
+  nameScene: Level_1
