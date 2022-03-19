@@ -2197,7 +2197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4545965545306051809, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4545965545306051821, guid: b4e15aa924b990b4aab423c8c2900fb9, type: 3}
       propertyPath: m_Pivot.x
@@ -4619,7 +4619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Size.x
-      value: 7.1235847
+      value: 7.186695
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Size.y
@@ -4627,7 +4627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Offset.x
-      value: 2.6613255
+      value: 2.6928806
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Offset.y
@@ -4635,11 +4635,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557502319644, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Size.x
-      value: 3.4360304
+      value: 3.5110025
       objectReference: {fileID: 0}
     - target: {fileID: 4060262557502319644, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Offset.x
-      value: 0.9435096
+      value: 0.9060235
       objectReference: {fileID: 0}
     - target: {fileID: 4060262558931360640, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Size.x
@@ -4750,6 +4750,14 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
+    - target: {fileID: 8834678046242967333, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_Size.x
+      value: 19.944202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8834678046242967333, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: m_Offset.x
+      value: 9.17737
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
 --- !u!1001 &6542755419278142146
@@ -4836,6 +4844,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2012549690052688241, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: m_Size.x
+      value: 19.90961
+      objectReference: {fileID: 0}
+    - target: {fileID: 2012549690052688241, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: m_Offset.x
+      value: 9.279432
+      objectReference: {fileID: 0}
     - target: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: m_Name
       value: LevelScene_0 (1)
@@ -4908,5 +4924,9 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
+    - target: {fileID: 3811322229316422632, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
