@@ -4561,17 +4561,9 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
-    - target: {fileID: 1680538998750170999, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1680538999636050438, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_Name
       value: LevelScene_2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1680538999636050438, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1680538999636050441, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: m_RootOrder
@@ -4617,78 +4609,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2350959325992748594, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2350959326390466682, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.x
-      value: 7.186695
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.y
-      value: 0.8202753
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.x
-      value: 2.6928806
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557376446416, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.25346184
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557502319644, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.x
-      value: 3.5110025
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262557502319644, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.9060235
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262558931360640, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.x
-      value: 7.3359795
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262558931360640, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.y
-      value: 0.71855694
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262558931360640, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.81178856
-      objectReference: {fileID: 0}
-    - target: {fileID: 4060262558931360640, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.2026026
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538306116802, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.x
-      value: 0.22037445
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538306116802, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.y
-      value: 1.6460748
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538306116802, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.023774967
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538306116802, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.30599016
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538988364426, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5574149
-      objectReference: {fileID: 0}
-    - target: {fileID: 6785608538988364426, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.34349063
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
 --- !u!1001 &6165883944742313248
@@ -4698,10 +4618,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 778889054868916302, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6165883944684394450, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -4710,17 +4626,9 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
-    - target: {fileID: 6165883944829730238, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.96
-      objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_Name
       value: LevelScene_0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6165883945767223287, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: m_RootOrder
@@ -4766,18 +4674,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: xInstantiate
-      value: 28
-      objectReference: {fileID: 0}
-    - target: {fileID: 6165883945770979892, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 6165883945862967885, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6165883946045566077, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -4786,14 +4682,6 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
-    - target: {fileID: 8834678046242967333, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_Size.x
-      value: 19.944202
-      objectReference: {fileID: 0}
-    - target: {fileID: 8834678046242967333, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
-      propertyPath: m_Offset.x
-      value: 9.17737
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
 --- !u!1001 &6542755419278142146
@@ -4880,45 +4768,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 919970975526161514, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2012549690052688241, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Size.x
-      value: 19.90961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2012549690052688241, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Offset.x
-      value: 9.279432
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322227929994579, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322227929994589, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Size.x
-      value: 0.23227045
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322227929994589, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Size.y
-      value: 1.5779573
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322227929994589, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.025901796
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322227929994589, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.3712226
-      objectReference: {fileID: 0}
     - target: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: m_Name
       value: LevelScene_0 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3811322228102236579, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: m_RootOrder
@@ -4964,14 +4816,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3811322228106994784, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322228195233765, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.87
-      objectReference: {fileID: 0}
     - target: {fileID: 3811322228352277033, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: panelTale
       value: 
@@ -4980,10 +4824,6 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
-    - target: {fileID: 3811322228479675615, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3811322229167890822, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: panelTale
       value: 
@@ -4992,29 +4832,5 @@ PrefabInstance:
       propertyPath: drawController
       value: 
       objectReference: {fileID: 1282281395}
-    - target: {fileID: 3811322229316422632, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3811322229578123551, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6125768874953971742, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8557888338294234655, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0367
-      objectReference: {fileID: 0}
-    - target: {fileID: 8557888338294234655, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.4367
-      objectReference: {fileID: 0}
-    - target: {fileID: 8557888338294234655, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.2983
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
