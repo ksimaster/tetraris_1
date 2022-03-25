@@ -5,8 +5,9 @@ using UnityEngine;
 public class RunSceneScript : MonoBehaviour
 {
     public float offset;
-    public GameObject objectMove;
+    public GameObject[] objectMoves;
     public float xInstantiate;
+    
 
     void FixedUpdate()
     {
@@ -23,8 +24,9 @@ public class RunSceneScript : MonoBehaviour
     {
         if (col.gameObject.CompareTag("SpawnLevel"))
         {
-            Instantiate(objectMove, new Vector2(xInstantiate, -0.2132f), Quaternion.identity);
+            Instantiate(objectMoves[Random.Range(0, objectMoves.Length)], new Vector2(xInstantiate, -0.2132f), Quaternion.identity);
             Destroy(gameObject);
         }
+       
     }
 }
