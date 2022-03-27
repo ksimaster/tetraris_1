@@ -4545,6 +4545,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2403037341223640080, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
+      propertyPath: objectMoves.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2403037341223640080, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
+      propertyPath: objectMoves.Array.data[0]
+      value: 
+      objectReference: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+    - target: {fileID: -2403037341223640080, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
+      propertyPath: objectMoves.Array.data[1]
+      value: 
+      objectReference: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+    - target: {fileID: -2403037341223640080, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
+      propertyPath: objectMoves.Array.data[2]
+      value: 
+      objectReference: {fileID: 1680538999636050438, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
     - target: {fileID: 1680538997616404107, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
       propertyPath: panelTale
       value: 
@@ -4698,6 +4714,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: objectMoves.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: objectMoves.Array.data[0]
+      value: 
+      objectReference: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+    - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: objectMoves.Array.data[1]
+      value: 
+      objectReference: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+    - target: {fileID: 6165883945767223288, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+      propertyPath: objectMoves.Array.data[2]
+      value: 
+      objectReference: {fileID: 1680538999636050438, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
     - target: {fileID: 6165883946045566077, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
       propertyPath: panelTale
       value: 
@@ -4840,6 +4872,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3811322228102236588, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: objectMoves.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811322228102236588, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: objectMoves.Array.data[0]
+      value: 
+      objectReference: {fileID: 6165883945767223286, guid: 0deb5fe7397e9ff48953de8aae5fa132, type: 3}
+    - target: {fileID: 3811322228102236588, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: objectMoves.Array.data[1]
+      value: 
+      objectReference: {fileID: 3811322228102236578, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+    - target: {fileID: 3811322228102236588, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
+      propertyPath: objectMoves.Array.data[2]
+      value: 
+      objectReference: {fileID: 1680538999636050438, guid: caddb4c2f4fd7ef4881a89c68c99af64, type: 3}
     - target: {fileID: 3811322228352277033, guid: 0df2215297b44464fa0737414a61cb76, type: 3}
       propertyPath: panelTale
       value: 
