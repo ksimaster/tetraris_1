@@ -6,7 +6,7 @@ public class ObjectMoveScript : MonoBehaviour
 {
     private float rotateZ = 1f;
     public float rotateSpeed = 7f;
-    private float rightForce = 0.6f;
+    public float rightForce = 0.6f;
     public string collisionTag;
     public string collisionTagSelf;
     public string collisionOff;

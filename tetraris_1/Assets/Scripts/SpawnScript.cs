@@ -6,10 +6,14 @@ public class SpawnScript : MonoBehaviour
 {
     public GameObject spawnObject;
     public GameObject SpawnPoint;
-    private float speedSpawn; //скорость спауна
+    
     public float minX, minY; // минимальный край координат с учетом координат точки спауна
     public float maxX, maxY; // максимальный край координат с учетом координат точки спауна
-    
+    public float speedSpawn = 2.5f; //скорость спауна
+    public float stepSpeedSpawn = 0.1f; //скорость спауна
+    public float minSpeedSpawnInCycle = 0.5f; //скорость спауна
+    public float maxSpeedSpawnInCycle = 1.3f; //скорость спауна
+
     void Start()
     {
         StartCoroutine(salvo());
@@ -44,13 +48,13 @@ public class SpawnScript : MonoBehaviour
         CreateSpawnObject();
         yield return new WaitForSeconds(Random.Range(0.5f, 1.3f));
 
-        speedSpawn = 2.5f;
+       // speedSpawn = 2.5f;
         while (speedSpawn >= 0.1f)
         {
             CreateSpawnObject();
             yield return new WaitForSeconds(speedSpawn);
-            speedSpawn -= 0.1f;
-            if (speedSpawn <= 0.2f) speedSpawn += Random.Range(0.5f, 1.3f);
+            speedSpawn -= stepSpeedSpawn;
+            if (speedSpawn <= stepSpeedSpawn*2) speedSpawn += Random.Range(0.5f, 1.3f);
         }        
     }
 
